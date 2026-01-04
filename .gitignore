@@ -1,6 +1,6 @@
 # Ignore the Packwiz binary cache and temporary files
 .packwiz/
-packwiz-installer-bootstrap.jar
+# packwiz-installer-bootstrap.jar
 packwiz.exe
 packwiz
 
