@@ -3,6 +3,7 @@
 # packwiz-installer-bootstrap.jar
 packwiz.exe
 packwiz
+.env
 
 # Ignore system files
 .DS_Store
