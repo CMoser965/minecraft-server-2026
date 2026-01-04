@@ -1,0 +1,22 @@
+# Ignore the Packwiz binary cache and temporary files
+.packwiz/
+packwiz-installer-bootstrap.jar
+packwiz.exe
+packwiz
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# OPTIONAL: Ignore actual jar files if you are only using CurseForge/Modrinth
+# (Packwiz stores the metadata in .pw.toml files, which IS committed)
+# However, if you have 'custom' local jars (like floral-decor.jar), 
+# you MUST comment out the next line so they get uploaded to GitHub.
+# *.jar
+
+# Ignore the 'data' folder if you accidentally run the server inside the modpack folder
+data/
+world/
+logs/
+crash-reports/
+run/

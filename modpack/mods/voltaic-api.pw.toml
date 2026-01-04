@@ -1,0 +1,13 @@
+name = "Voltaic API"
+filename = "Voltaic-1.20.1-1.0.2-0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "029864071db04cb1eebe21d228ce1d06072f8486"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7397504
+project-id = 1237904

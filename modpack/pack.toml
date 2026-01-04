@@ -1,0 +1,13 @@
+name = "2026 Minecraft Server"
+author = "unluckyGolem"
+version = "1.0.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "e381223e4002c03e5a65c5f1026be48f277c8e93751ff9243028160a0cf98048"
+
+[versions]
+forge = "47.4.13"
+minecraft = "1.20.1"
