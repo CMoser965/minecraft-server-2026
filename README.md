@@ -63,7 +63,7 @@ You **must** allocate more RAM, or the game will crash/lag immediately.
 2. Click **Play**.
 3. **Multiplayer** -> **Add Server**:
    * **Name:** Unlucky Golem's 2026 Minecraft Server
-   * **Address:** `YOUR_PUBLIC_IP_HERE` (Ask Christopher for the IP)
+   * **Address:** Only those who know will have this
 4. Join!
 
 ---
