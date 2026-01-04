@@ -81,21 +81,6 @@ hash = "638f7c447dbe7dc2e85e4bf89d70fb41632db940a57de498094f2be57fa6c18d"
 metafile = true
 
 [[files]]
-file = "mods/entity-model-features.pw.toml"
-hash = "2a5ec036147e0c0ac36f551c0f5e357afff8de395803b0dd5b6a04343e7ba1af"
-metafile = true
-
-[[files]]
-file = "mods/entity-texture-features-fabric.pw.toml"
-hash = "163a669685e417fc90796323b46128e5e54162703c2f6c114a52af3da5b5a95d"
-metafile = true
-
-[[files]]
-file = "mods/entitytexturefeatures.pw.toml"
-hash = "c61547fcb79cbc520c73374a01430c25af6ce2de258f019bd2c617b2d9bd71c7"
-metafile = true
-
-[[files]]
 file = "mods/extreme-reactors.pw.toml"
 hash = "fc21ff9cee2da4efc88692075c1f2ff648822808112dee3ca043f5ea5e9cdcd7"
 metafile = true
@@ -148,11 +133,6 @@ metafile = true
 [[files]]
 file = "mods/nuclear-science.pw.toml"
 hash = "e8129b596fa562e94359b6d293a6e4eaea86a96924658f75647ba1741f53c486"
-metafile = true
-
-[[files]]
-file = "mods/oculus.pw.toml"
-hash = "5ef885f9912ff6aa73db254b63a3cd22520f06261bc3c38e7c92f449806a9044"
 metafile = true
 
 [[files]]
