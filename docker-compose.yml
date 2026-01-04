@@ -13,7 +13,7 @@ services:
       MEMORY: "8G"
       
       # Points to your running 'packwiz serve' terminal
-      PACKWIZ_URL: "http://host.docker.internal:8080/pack.toml"
+      PACKWIZ_URL: "https://cmoser965.github.io/minecraft-server-2026/modpack/pack.toml"
       
       # High-performance Java Flags for 12GB+ RAM
       JVM_OPTS: >

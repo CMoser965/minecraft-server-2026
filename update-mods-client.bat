@@ -26,7 +26,7 @@ if exist "%TARGET_DIR%" (
 
 :: 4. Run the update
 :: It will verify mods in %APPDATA%\.minecraft\mods
-java -jar "%BOOTSTRAP_JAR%" -g -s client http://localhost:8080/pack.toml
+java -jar "%BOOTSTRAP_JAR%" -g -s client https://cmoser965.github.io/minecraft-server-2026/modpack/pack.toml
 
 if %ERRORLEVEL% NEQ 0 (
     echo.
