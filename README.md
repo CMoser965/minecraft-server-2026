@@ -5,7 +5,7 @@ Welcome to the server! Follow these instructions exactly to get set up.
 ### 📋 Prerequisites
 Before you start, ensure you have the following installed:
 1. **Minecraft Java Edition** (Official Launcher).
-2. **Java 17** (or Java 21). [Download here](https://adoptium.net/temurin/releases/?version=17) if you don't have it.
+2. **Java 17** (or Java 21). [Download here](https://www.oracle.com/java/technologies/downloads/#java21) if you don't have it.
 
 ---
 
