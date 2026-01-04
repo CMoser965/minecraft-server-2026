@@ -48,7 +48,7 @@ You **must** allocate more RAM, or the game will crash/lag immediately.
 2. Go to the **Installations** tab at the top.
 3. Find the **"forge-1.20.1..."** profile (it should have been created in Step 1).
 4. Hover over it and click the **Three Dots (...)** -> **Edit**.
-5. **Name:** Change it to "SpaceX SMP" (Optional).
+5. **Name:** Change it to "Unlucky Golem's 2026 Minecraft Server" (Optional).
 6. **More Options:** Click this text to expand the settings.
 7. **JVM Arguments:**
    * Look for the text `-Xmx2G` (it's usually at the start).
@@ -59,10 +59,10 @@ You **must** allocate more RAM, or the game will crash/lag immediately.
 ---
 
 ### Step 5: Play!
-1. Select your new **SpaceX SMP** profile.
+1. Select your new **Unlucky Golem's 2026 Minecraft Server** profile.
 2. Click **Play**.
 3. **Multiplayer** -> **Add Server**:
-   * **Name:** SpaceX SMP
+   * **Name:** Unlucky Golem's 2026 Minecraft Server
    * **Address:** `YOUR_PUBLIC_IP_HERE` (Ask Christopher for the IP)
 4. Join!
 
