@@ -76,11 +76,6 @@ hash = "1315cd56b0b4a5b3d53374cebf4f1f3cd0546b05058740847bd226c1d1ccab39"
 metafile = true
 
 [[files]]
-file = "mods/dcintegration.pw.toml"
-hash = "8c04f9fd776591ebe8050f7504f23ef5b36f16507d95107b1c53ff408b01b3f8"
-metafile = true
-
-[[files]]
 file = "mods/electrodynamics.pw.toml"
 hash = "b23ec970a5f2bd0a0873cc39225c7a5a1f3ec18e1c62b63c03b195718bb7c7cb"
 metafile = true
