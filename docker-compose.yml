@@ -8,7 +8,7 @@ services:
       - LOG_FILE=false
     restart: unless-stopped
   mc:
-    image: itzg/minecraft-server
+    image: itzg/minecraft-server:java17
     container_name: mc-forge-server
     tty: true
     stdin_open: true
