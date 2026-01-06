@@ -1,11 +1,15 @@
 services:
   monitor:
     build: ./monitor
-    container_name: mc-status-monitor
+    container_name: mc-server-status
     env_file: .env
     environment:
-      - CHECK_INTERVAL=300  # Check every 300 seconds (5 mins)
-    restart: unless-stopped
+      - COORDINATE_MAPPER_WEBHOOK_URL=${COORDINATE_MAPPER_WEBHOOK_URL}
+      - RCON_HOST=mc
+      - RCON_PORT=25575
+      - RCON_PASSWORD=${RCON_PASSWORD}
+    volumes:
+      - ./data/logs:/data/logs:ro
     depends_on:
       - mc
   duckdns:
@@ -28,6 +32,9 @@ services:
       TYPE: "FORGE"
       VERSION: "1.20.1"
       MEMORY: "8G"
+      ENABLE_RCON: "true"
+      RCON_PORT: 25575
+      RCON_PASSWORD: ${RCON_PASSWORD}
       
       # Points to your running 'packwiz serve' terminal
       PACKWIZ_URL: "https://cmoser965.github.io/minecraft-server-2026/modpack/pack.toml"
@@ -53,7 +60,6 @@ services:
         -XX:+PerfDisableSharedMem
         -XX:MaxTenuringThreshold=1
 
-    # Allows Docker to see your "packwiz serve" on localhost
     extra_hosts:
       - "host.docker.internal:host-gateway"
       

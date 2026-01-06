@@ -11,6 +11,11 @@ hash = "6f87edf40bf0be7e7e266f9e2ff0bf7584c6bedff7975bad3259a21a60d1e598"
 metafile = true
 
 [[files]]
+file = "mods/appleskin.pw.toml"
+hash = "8d0321177fed4a0b48554c40158b43db62f6cdaa768f584ef6a11575dfaa6223"
+metafile = true
+
+[[files]]
 file = "mods/applied-energistics-2.pw.toml"
 hash = "0f4c2198603cd84a14dc6741729d0b0dcf509574776e620c36c3e7180082db32"
 metafile = true
@@ -41,6 +46,11 @@ hash = "c45dce6b9e52796c0606ff222efa5833fd1d420fa67e7a8f26852196b80f6fa5"
 metafile = true
 
 [[files]]
+file = "mods/clumps.pw.toml"
+hash = "e3173aaa4e9078ad7ace2b9ef43ce15ce9919c0b566d8830cea87264f92b3a6a"
+metafile = true
+
+[[files]]
 file = "mods/codechicken-lib-1-8.pw.toml"
 hash = "f88db7aef79947669ba4d736cc2f352a2269eb21770d5597d306c3017ea126dc"
 metafile = true
@@ -53,6 +63,11 @@ metafile = true
 [[files]]
 file = "mods/construction-wand.pw.toml"
 hash = "1613f68b9bdd242a957a3a20c5193b640672d11087abcb5c3abe5da45b235e35"
+metafile = true
+
+[[files]]
+file = "mods/controlling.pw.toml"
+hash = "1e56f528d8e21b0cf9c52c3d6deea2a4eafa408170b39a070195dbf66617f373"
 metafile = true
 
 [[files]]
@@ -101,6 +116,11 @@ hash = "fc21ff9cee2da4efc88692075c1f2ff648822808112dee3ca043f5ea5e9cdcd7"
 metafile = true
 
 [[files]]
+file = "mods/fast-leaf-decay.pw.toml"
+hash = "fd5aa059dd7e148e9ce801455b438425c0ad36537ce4b635edeb524900b15284"
+metafile = true
+
+[[files]]
 file = "mods/ferritecore.pw.toml"
 hash = "5bd0506bc0be25116b234f2b5af9447f60d82ae1cb6c5be4e12d8841f6c2501c"
 metafile = true
@@ -113,6 +133,11 @@ metafile = true
 [[files]]
 file = "mods/forgified-fabric-api.pw.toml"
 hash = "62ef7e92478035b77e996189984e4749b2d876ed0a389977a2670a28f105bfd2"
+metafile = true
+
+[[files]]
+file = "mods/framework.pw.toml"
+hash = "376f8a190f00bd120193d7a665ebe1b03dfe329cc395f7d944f7216c1182c84d"
 metafile = true
 
 [[files]]
@@ -151,6 +176,26 @@ hash = "c3265a04984be048307745587dab58deb0466efd99a40d335f23696fb4f9947e"
 metafile = true
 
 [[files]]
+file = "mods/jade.pw.toml"
+hash = "8f359d190506a6f824763b8e7c390d9e22204ef11e3ffa5ef980000d17e2c2b6"
+metafile = true
+
+[[files]]
+file = "mods/jei.pw.toml"
+hash = "29b62d42548542296d9932bcbb8a93ffba0b75b7cc859a67e596aeb1e048ace2"
+metafile = true
+
+[[files]]
+file = "mods/just-enough-guns.pw.toml"
+hash = "6c01c4e336f958358365b1aad494760260785101d0904cc46e2c3f0e2a6d4208"
+metafile = true
+
+[[files]]
+file = "mods/just-enough-resources-jer.pw.toml"
+hash = "2f4dd47f2ac99a55c332638116596bbdc38a06ac86336bb662e42c604c3a96e6"
+metafile = true
+
+[[files]]
 file = "mods/laserio.pw.toml"
 hash = "9d85a210e77661032cfbcd930059096be6cfb6afd9abedde21bcdfa4e5b25e54"
 metafile = true
@@ -186,6 +231,11 @@ hash = "11cd7da81a933aab04f091e2c25447b6d11ebe98bfeed244426a86dd31f3df04"
 metafile = true
 
 [[files]]
+file = "mods/mouse-tweaks.pw.toml"
+hash = "e72f73611904e14d915418f0e3c6cb483cdc600e211375c2eceb393fec5b80f1"
+metafile = true
+
+[[files]]
 file = "mods/mowzies-mobs.pw.toml"
 hash = "6ff4dfc30b3df634c6a2e587742ad381aa5988a50a646003369331749882c0a9"
 metafile = true
@@ -206,6 +256,11 @@ hash = "045d582e2c534c5bb96d7336b4ae2cd12692c6de29b19ae5f1dbfd8759c03b03"
 metafile = true
 
 [[files]]
+file = "mods/polymorph.pw.toml"
+hash = "8c65958007f81cdf1a57dac999ec7ffdde17cce6154c9a2f75bbb389fd11efbf"
+metafile = true
+
+[[files]]
 file = "mods/resourceful-config.pw.toml"
 hash = "e242387207a2538b5ccb55697174c65e549e1eb2fef9da37e1ad3734e0372b65"
 metafile = true
@@ -221,6 +276,11 @@ hash = "9b51ec1408e4831a769779c1363a80d818d88554981ee369d06da30c2523db50"
 metafile = true
 
 [[files]]
+file = "mods/searchables.pw.toml"
+hash = "2cb8dd9a3944a6430b49916a4fe1b6cf0bd7efd907054f8e679a02717149404f"
+metafile = true
+
+[[files]]
 file = "mods/security-craft.pw.toml"
 hash = "0a9437e4b4d53291137e780a5f4d85dc06f584b1c43b8fdec788158da1770f3e"
 metafile = true
@@ -228,6 +288,16 @@ metafile = true
 [[files]]
 file = "mods/sinytra-connector.pw.toml"
 hash = "6db079b4b12f1b14243980080879cc40087c3507f3ad25adf97e5f0ce9bb163b"
+metafile = true
+
+[[files]]
+file = "mods/sophisticated-backpacks.pw.toml"
+hash = "d820ddc633c3844bd8f4e4eb2401ee8d0b2a9cc9713338045d09502e609f2b62"
+metafile = true
+
+[[files]]
+file = "mods/sophisticated-core.pw.toml"
+hash = "69dd7341ad086e0fa23bef3ba04237c4c74ea76800cf8289050b09eda3268c5c"
 metafile = true
 
 [[files]]
@@ -272,6 +342,16 @@ metafile = true
 [[files]]
 file = "mods/waystones.pw.toml"
 hash = "5dbc1ed70c1dd5c99c93d353b6267c6a4e7af2b342d0ad4ddecf54593e199224"
+metafile = true
+
+[[files]]
+file = "mods/xaeros-minimap.pw.toml"
+hash = "89f2e05f2ca0bea0df3374cb7b3d862f9209a01d7325e69c5eb98f0218594d47"
+metafile = true
+
+[[files]]
+file = "mods/xaeros-world-map.pw.toml"
+hash = "42d13af643345d229b9d3a08b5e2a25d8fb1ce8ebead2b3431a70346ca652e94"
 metafile = true
 
 [[files]]

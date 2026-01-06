@@ -5,7 +5,7 @@ FROM python:3.11-alpine
 WORKDIR /app
 
 # Install requests library (no need for requirements.txt for one lib)
-RUN pip install requests
+RUN pip install requests python-dotenv mcrcon
 
 # Copy the script
 COPY server_status.py .
