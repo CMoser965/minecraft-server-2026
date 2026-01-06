@@ -5,10 +5,10 @@ requiredDestroySpeed = 1.0
 requireCorrectTool = false
 #The maximum number of blocks to vein mine without the enchantment.
 #Range: 0 ~ 1000
-maxBlocksBase = 50
+maxBlocksBase = 8
 #The maximum number of blocks to vein mine per level of the enchantment.
 #Range: 1 ~ 1000
-maxBlocksPerLevel = 50
+maxBlocksPerLevel = 0
 #If enabled, vein mining can mine diagonally.
 diagonalMining = true
 #If enabled, vein mining will stop when the tool can no longer be used.
@@ -29,9 +29,9 @@ addExhaustion = true
 exhaustionMultiplier = 1.0
 #Determines the vein mineable blocks based on a preset option or a configured list.
 #Allowed Values: CONFIG_LIST, ALL, ORES, ORES_LOGS, ORES_STONE, ORES_STONE_LOGS, NO_BLOCK_ENTITIES
-blocks = "CONFIG_LIST"
+blocks = "ALL"
 #The blocks or block tags for vein mining if blocks is set to "CONFIG_LIST".
-blocksList = ["#c:ores", "#forge:ores", "#minecraft:logs"]
+# blocksList = ["#c:ores", "#forge:ores", "#minecraft:logs"]
 #Determines if blocksList contains allowed blocks or denied blocks.
 #Allowed Values: ALLOW, DENY
 blocksListType = "ALLOW"

@@ -362,7 +362,7 @@ metafile = true
 
 [[files]]
 file = "mods/veinmining-server.toml"
-hash = "a6a9bc8a71b4164b89459549383ec40527a6eefe18d809eaa82a90338203193d"
+hash = "3e4cae63de27c95adf00d5aec7dc49c6ffc637155fa5e192c4b5b6fde6d7fb0e"
 
 [[files]]
 file = "mods/voltaic-api.pw.toml"
