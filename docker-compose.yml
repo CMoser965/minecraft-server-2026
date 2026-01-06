@@ -8,6 +8,7 @@ services:
       - RCON_HOST=mc
       - RCON_PORT=25575
       - RCON_PASSWORD=${RCON_PASSWORD}
+      - CHECK_INTERVAL=150
     volumes:
       - ./data/logs:/data/logs:ro
     depends_on:
