@@ -211,6 +211,11 @@ hash = "c46659c3e873e0ca121f5215991ae8bc989132a3fea0c2da9eed0f22a947b2b9"
 metafile = true
 
 [[files]]
+file = "mods/gravestone-mod.pw.toml"
+hash = "df07d5af0d287b944943b65e0b0990dc21fbbad6fee05b9d698a9f62b906ea9c"
+metafile = true
+
+[[files]]
 file = "mods/guideme.pw.toml"
 hash = "5cc92eb0e58c2afbfd625d727d80da1d1c84500ec962bb22f5be28b864f18551"
 metafile = true
@@ -434,10 +439,6 @@ metafile = true
 file = "mods/titanium.pw.toml"
 hash = "5e41fd8f565e09e83868e4c4776154befd3203b01ed5f09b6f7cd27687ec0041"
 metafile = true
-
-[[files]]
-file = "mods/veinmining-server.toml"
-hash = "6a6910f21440a9137e34852f3021ae21898ce037daa0878f3940d5e5b151d383"
 
 [[files]]
 file = "mods/voltaic-api.pw.toml"
