@@ -121,6 +121,11 @@ hash = "8a5f33277995fccd2be6793c4fba1b5d657983be32f0b47e4afab4eac70b8ab8"
 metafile = true
 
 [[files]]
+file = "mods/creativecore.pw.toml"
+hash = "1a0099366159fe4c62c19e82b512375eaa528574cf1a7d60fc7b2c96e8a83a51"
+metafile = true
+
+[[files]]
 file = "mods/cucumber.pw.toml"
 hash = "31b3ecd1317f2d2b9802592def351b5567196d726283530f72e33f5c827e5807"
 metafile = true
@@ -273,6 +278,11 @@ metafile = true
 [[files]]
 file = "mods/lionfish-api.pw.toml"
 hash = "60af8798dbf3e300a5af44125595afcd5d1e70072448444156364f222cc03e98"
+metafile = true
+
+[[files]]
+file = "mods/littleframes.pw.toml"
+hash = "be48294336cf38779a2ad297421efdc63a6a9757be727fc756a0b319f6668764"
 metafile = true
 
 [[files]]
@@ -448,6 +458,16 @@ metafile = true
 [[files]]
 file = "mods/voltaic-api.pw.toml"
 hash = "e2a0d097e297d8c881178291f716655cfe604d7412ab083fc5ac401da9d3a130"
+metafile = true
+
+[[files]]
+file = "mods/watermedia-binaries.pw.toml"
+hash = "c62666398a756d3bc18d254c7cffef9356a9ab90409a7468b801eba3f2bf86bd"
+metafile = true
+
+[[files]]
+file = "mods/watermedia.pw.toml"
+hash = "19243fc1347a4c86b23140a163b53977a3fb6bf023cf79773e613964eb6511ee"
 metafile = true
 
 [[files]]
