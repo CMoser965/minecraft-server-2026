@@ -421,6 +421,11 @@ hash = "fde3d3b1607636100e382dce1bba80ab4608ebfa1ef888a37b86bc8c7dcbafe5"
 metafile = true
 
 [[files]]
+file = "mods/tesseract.pw.toml"
+hash = "0188496a2cffbd5a1aad3fa0429d646487bd685aa2b109c2c649aff675c91a6c"
+metafile = true
+
+[[files]]
 file = "mods/the-zoomify-mod.pw.toml"
 hash = "b75a777a1f65a833e5398800f3fe2715b0828989d366c38eca724c0269e233be"
 metafile = true
