@@ -1,6 +1,18 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/enderio/armory-common.toml"
+hash = "be5a4f4a1b5049bfaad1c8892278d27d46f7a7452be6f83e2b58c054f35b70bf"
+
+[[files]]
+file = "config/enderio/base-common.toml"
+hash = "bd93c06ae17da4e21e8111d3eca20df42ec7da2ce38f949baf8cab087690b060"
+
+[[files]]
+file = "config/enderio/machines-common.toml"
+hash = "fab75753b828480d463aa7c8e535eba9f418899a0011aa73c3499bc99b7792e7"
+
+[[files]]
 file = "mods/ad-astra-giselle-addon.pw.toml"
 hash = "2ee5a9e5a8cc755b428d953cc3f89a68c4f239136c50e9500ed62f13dd92561e"
 metafile = true
