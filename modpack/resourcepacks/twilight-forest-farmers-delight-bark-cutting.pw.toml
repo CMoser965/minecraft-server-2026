@@ -1,0 +1,13 @@
+name = "Twilight Forest - Farmer's Delight - Bark Cutting Compat"
+filename = "TW-FD-compat - v1.03.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "c5a8b1850e22f4d9266d6f0763282aae616b04f3"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5729860
+project-id = 1088981

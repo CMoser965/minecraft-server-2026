@@ -13,13 +13,28 @@ file = "config/enderio/machines-common.toml"
 hash = "fab75753b828480d463aa7c8e535eba9f418899a0011aa73c3499bc99b7792e7"
 
 [[files]]
+file = "mods/ad-astra-extra.pw.toml"
+hash = "7edfce8b7a14c72f55c921c3cfb3a6ff8490db14139d72466038e68465da23c6"
+metafile = true
+
+[[files]]
 file = "mods/ad-astra-giselle-addon.pw.toml"
 hash = "2ee5a9e5a8cc755b428d953cc3f89a68c4f239136c50e9500ed62f13dd92561e"
 metafile = true
 
 [[files]]
+file = "mods/ad-astra-more-structures.pw.toml"
+hash = "88e57e5509a97a4917061cf64fe838511982b8a57c3bdd729ca7b23245830c0e"
+metafile = true
+
+[[files]]
 file = "mods/ad-astra.pw.toml"
 hash = "da42d2a6e6e3f7bd10df625ab23d6ba8a50ecb3545c1c3c6bda4f826caa5d51b"
+metafile = true
+
+[[files]]
+file = "mods/aeinfinitybooster.pw.toml"
+hash = "846831d26250caa2ecb9e68919c685b4501afa6899b38b87c7b3b4260e7f6e66"
 metafile = true
 
 [[files]]
@@ -63,6 +78,11 @@ hash = "008c942efc2e2ec221dd1a760b4a50e2f24ede37747731ba794f5e845554adcb"
 metafile = true
 
 [[files]]
+file = "mods/brandons-core.pw.toml"
+hash = "dcfcb5a0d4132f1baa0f66e824531d1bbcb77c1b7ca2b5d3497514e233564dd8"
+metafile = true
+
+[[files]]
 file = "mods/building-wands.pw.toml"
 hash = "c7955ddf99f02fe3a4203cedd586775fcf2d66e65fa2e9431ac358b9511de3c6"
 metafile = true
@@ -84,7 +104,7 @@ metafile = true
 
 [[files]]
 file = "mods/clumps.pw.toml"
-hash = "e3173aaa4e9078ad7ace2b9ef43ce15ce9919c0b566d8830cea87264f92b3a6a"
+hash = "903352ffbd84d4b95fed905893f4715d9c3f88ec9fff6fb06f6e359e0b839dc3"
 metafile = true
 
 [[files]]
@@ -145,6 +165,11 @@ metafile = true
 [[files]]
 file = "mods/curios.pw.toml"
 hash = "1315cd56b0b4a5b3d53374cebf4f1f3cd0546b05058740847bd226c1d1ccab39"
+metafile = true
+
+[[files]]
+file = "mods/draconic-evolution.pw.toml"
+hash = "2ded5af656d072e9d4f33fa02687639b7fe3d3bcd289cd0d161299d7c6d117df"
 metafile = true
 
 [[files]]
@@ -313,8 +338,18 @@ hash = "ff60c101d23ba31406049f45f8a7d77172287e1b9927ad2b5335eb31ff4c2cb2"
 metafile = true
 
 [[files]]
+file = "mods/mekanism-ad-astra-ores.pw.toml"
+hash = "1ef36ad84056040fd17daa4a8aa7176e31bfa91cef5c4c70c6248b8afd05e266"
+metafile = true
+
+[[files]]
 file = "mods/mekanism.pw.toml"
 hash = "7c411a566d022680769ddb8323984fff292ddeb35e7d8fcfe2cc41b9885d9557"
+metafile = true
+
+[[files]]
+file = "mods/memoryleakfix.pw.toml"
+hash = "ade41e4315735aa9116a0222b332e03d3f8df6eea301764d40d0bdc40f5e8689"
 metafile = true
 
 [[files]]
@@ -324,7 +359,7 @@ metafile = true
 
 [[files]]
 file = "mods/modernfix.pw.toml"
-hash = "11cd7da81a933aab04f091e2c25447b6d11ebe98bfeed244426a86dd31f3df04"
+hash = "17523abe76f282db11e95a033e504c1da3f82ac23a42e169d6b1e4d59b6a18d6"
 metafile = true
 
 [[files]]
@@ -403,6 +438,11 @@ hash = "0a9437e4b4d53291137e780a5f4d85dc06f584b1c43b8fdec788158da1770f3e"
 metafile = true
 
 [[files]]
+file = "mods/servercore.pw.toml"
+hash = "4c1d37d3aecc6d67ce6c6a97d859345cdaefcf619a057069b0a8635f2ad551ac"
+metafile = true
+
+[[files]]
 file = "mods/sinytra-connector.pw.toml"
 hash = "6db079b4b12f1b14243980080879cc40087c3507f3ad25adf97e5f0ce9bb163b"
 metafile = true
@@ -445,6 +485,11 @@ metafile = true
 [[files]]
 file = "mods/tesseract.pw.toml"
 hash = "0188496a2cffbd5a1aad3fa0429d646487bd685aa2b109c2c649aff675c91a6c"
+metafile = true
+
+[[files]]
+file = "mods/the-twilight-forest.pw.toml"
+hash = "d1f859de9867b7433305aef1631aa22a436a4c3924474a21c0a22ab5f2093c04"
 metafile = true
 
 [[files]]
@@ -500,6 +545,11 @@ metafile = true
 [[files]]
 file = "resourcepacks/fresh-animations.pw.toml"
 hash = "64f90fd9619a092a8a5493d6ad9605bc5fec13f50f02feef1dcf47c9496a80bd"
+metafile = true
+
+[[files]]
+file = "resourcepacks/twilight-forest-farmers-delight-bark-cutting.pw.toml"
+hash = "8328646e0adb1e4ea050e1962f1b13696b2c27e999015b2cfc13ea814ccdd5ca"
 metafile = true
 
 [[files]]
