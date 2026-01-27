@@ -438,11 +438,6 @@ hash = "0a9437e4b4d53291137e780a5f4d85dc06f584b1c43b8fdec788158da1770f3e"
 metafile = true
 
 [[files]]
-file = "mods/servercore.pw.toml"
-hash = "4c1d37d3aecc6d67ce6c6a97d859345cdaefcf619a057069b0a8635f2ad551ac"
-metafile = true
-
-[[files]]
 file = "mods/sinytra-connector.pw.toml"
 hash = "6db079b4b12f1b14243980080879cc40087c3507f3ad25adf97e5f0ce9bb163b"
 metafile = true
