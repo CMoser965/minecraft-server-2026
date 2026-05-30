@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = "index.html"
+hash = "eda1d1c56c3834bdb0fbbbffec94e4845665b95be9468c83acc6bf7507473d97"
+
+[[files]]
 file = "mods/appleskin.pw.toml"
 hash = "a10021ff4bb5426107f21688b8954a9dd386615adc98a61a508da7527be65a62"
 metafile = true
@@ -176,11 +180,6 @@ hash = "ba696ce7c3b9ce41805be9a6b5ad1a99edea377753827ce9596af5453929dc71"
 metafile = true
 
 [[files]]
-file = "shaderpacks/complementary-unbound.pw.toml"
-hash = "c2cbaba46d1a81f13a399f734cc41fa8e2a310bae6706c6d93eb9c242f303b27"
-metafile = true
-
-[[files]]
 file = "resourcepacks/default-hd-128x.pw.toml"
 hash = "0b5448f66cd41f4ececc92ad415b2024ab97456637f6e370800965d34a4211c8"
 metafile = true
@@ -188,4 +187,9 @@ metafile = true
 [[files]]
 file = "resourcepacks/dramatic-skys.pw.toml"
 hash = "7f3f484eda164a865e8bb2c1b7ab93bcbc876cb8b4d17c4d6325f2c37cd7f429"
+metafile = true
+
+[[files]]
+file = "shaderpacks/complementary-unbound.pw.toml"
+hash = "c2cbaba46d1a81f13a399f734cc41fa8e2a310bae6706c6d93eb9c242f303b27"
 metafile = true
