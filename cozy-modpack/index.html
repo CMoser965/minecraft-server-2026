@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cozy Days - Minecraft Modpack Setup</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.7;
+            color: #e6e6e6;
+            background-color: #1a1a1a;
+            max-width: 780px;
+            margin: 0 auto;
+            padding: 20px 24px 60px;
+        }
+        h1 { text-align: center; border-bottom: none; color: #ffffff; font-size: 2em; margin-bottom: 4px; }
+        .subtitle { text-align: center; color: #9fc7e8; margin-top: 0; margin-bottom: 32px; font-size: 1.05em; }
+        h2 { color: #ffffff; border-bottom: 1px solid #333; padding-bottom: 8px; }
+        a { color: #58a6ff; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+        code { background-color: #333; padding: 2px 7px; border-radius: 4px; font-family: monospace; color: #ff7b72; }
+        .step {
+            background-color: #262626;
+            padding: 22px 24px;
+            border-radius: 10px;
+            margin-bottom: 18px;
+            border: 1px solid #333;
+        }
+        .step-num {
+            display: inline-block;
+            background: #2a5a8c;
+            color: #a8d0f0;
+            font-weight: bold;
+            border-radius: 50%;
+            width: 28px;
+            height: 28px;
+            line-height: 28px;
+            text-align: center;
+            margin-right: 10px;
+            font-size: 0.95em;
+        }
+        .step-title { font-size: 1.15em; font-weight: bold; color: #7ee787; display: inline; }
+        .tip { background-color: #1e2d1e; border-left: 4px solid #3d8f3d; padding: 12px 16px; margin: 14px 0; border-radius: 0 6px 6px 0; }
+        .download-btn {
+            display: block;
+            background: #2a5a8c;
+            color: white;
+            text-align: center;
+            padding: 14px 0;
+            border-radius: 8px;
+            font-weight: bold;
+            font-size: 1.1em;
+            margin: 16px 0 8px;
+        }
+        .download-btn:hover { background: #3572b0; text-decoration: none; }
+        .mod-table { width: 100%; border-collapse: collapse; font-size: 0.9em; margin-top: 10px; }
+        .mod-table th { text-align: left; padding: 6px 10px; color: #aaa; border-bottom: 1px solid #444; }
+        .mod-table td { padding: 5px 10px; border-bottom: 1px solid #2c2c2c; }
+        .badge { display: inline-block; padding: 2px 7px; border-radius: 10px; font-size: 0.75em; font-weight: bold; }
+        .badge.client { background: #2a3d5a; color: #7ab3e0; }
+        .badge.both { background: #2a3d2a; color: #7ae07a; }
+        .back-link { display: inline-block; margin-bottom: 24px; color: #aaa; font-size: 0.9em; }
+    </style>
+</head>
+<body>
+
+    <a class="back-link" href="../">← Back to Pack Hub</a>
+
+    <h1>Cozy Days</h1>
+    <p class="subtitle">Fabric 1.20.1 &nbsp;·&nbsp; Cozy exploration, cute critters, pretty landscapes</p>
+
+    <h2>Quick Install (recommended)</h2>
+
+    <div class="step">
+        <span class="step-num">1</span>
+        <span class="step-title">Install the Modrinth App</span>
+        <p>This is a free launcher that installs the modpack for you in one click. No fiddling with folders.</p>
+        <a class="download-btn" href="https://modrinth.com/app" target="_blank">Download Modrinth App</a>
+        <p style="color:#aaa; font-size:0.9em;">Click the big download button on their site. Run the installer when it downloads.</p>
+    </div>
+
+    <div class="step">
+        <span class="step-num">2</span>
+        <span class="step-title">Import the pack file</span>
+        <p>Download the <code>.mrpack</code> file below, then in the Modrinth App go to <strong>Browse</strong> → click the folder icon → <strong>Import from file</strong> → select the file you downloaded.</p>
+        <a class="download-btn" href="cozy-days.mrpack">Download cozy-days.mrpack</a>
+        <div class="tip">The app will download all the mods automatically. This takes a couple of minutes on first launch.</div>
+    </div>
+
+    <div class="step">
+        <span class="step-num">3</span>
+        <span class="step-title">Set your RAM</span>
+        <p>Once the instance is created, click the <strong>three dots</strong> next to it → <strong>Edit</strong> → <strong>Java</strong> tab. Set <strong>Maximum memory</strong> to <code>6144 MB</code> (6 GB). Click Save.</p>
+    </div>
+
+    <div class="step">
+        <span class="step-num">4</span>
+        <span class="step-title">Play!</span>
+        <p>Hit the big green <strong>Play</strong> button. First launch takes a minute to load all the mods.</p>
+        <p>To join the server: <strong>Multiplayer</strong> → <strong>Add Server</strong> → enter the address you were given.</p>
+    </div>
+
+    <hr style="border-color:#333; margin: 36px 0;">
+
+    <h2>What's in the pack</h2>
+
+    <table class="mod-table">
+        <tr><th>Mod</th><th>What it does</th><th>Where</th></tr>
+        <tr><td>Sodium + Lithium + FerriteCore + ModernFix</td><td>Performance — game runs smoother</td><td><span class="badge client">client</span></td></tr>
+        <tr><td>Iris Shaders + Complementary Unbound</td><td>Beautiful lighting and shadows</td><td><span class="badge client">client</span></td></tr>
+        <tr><td>Dramatic Skys + Default HD 128x</td><td>Prettier skies and textures</td><td><span class="badge client">client</span></td></tr>
+        <tr><td>Terralith</td><td>Stunning terrain &amp; biomes</td><td><span class="badge both">both</span></td></tr>
+        <tr><td>Biomes O' Plenty</td><td>Dozens of new biomes to explore</td><td><span class="badge both">both</span></td></tr>
+        <tr><td>Wilder Wild</td><td>Revamped swamps, caves, fireflies</td><td><span class="badge both">both</span></td></tr>
+        <tr><td>Naturalist</td><td>Deer, bears, ducks, dragonflies…</td><td><span class="badge both">both</span></td></tr>
+        <tr><td>Critters &amp; Companions</td><td>Otters, koi, red pandas, ferrets</td><td><span class="badge both">both</span></td></tr>
+        <tr><td>Friends &amp; Foes</td><td>Copper Golem, Moobloom, Glare &amp; more</td><td><span class="badge both">both</span></td></tr>
+        <tr><td>Farmer's Delight (Refabricated)</td><td>Tons of new food &amp; cooking</td><td><span class="badge both">both</span></td></tr>
+        <tr><td>Supplementaries</td><td>Lanterns, signs, decorative bits</td><td><span class="badge both">both</span></td></tr>
+        <tr><td>Decorative Blocks</td><td>Beams, seats, support columns</td><td><span class="badge both">both</span></td></tr>
+        <tr><td>Macaw's Furniture / Doors / Roofs / Bridges</td><td>Build cozy houses</td><td><span class="badge both">both</span></td></tr>
+        <tr><td>When Dungeons Arise</td><td>Huge, gorgeous dungeons to explore</td><td><span class="badge both">both</span></td></tr>
+        <tr><td>Dungeons &amp; Taverns</td><td>Villages with inns, dungeons, towers</td><td><span class="badge both">both</span></td></tr>
+        <tr><td>YUNG's Better Dungeons / Mineshafts / Strongholds</td><td>Completely reworked vanilla structures</td><td><span class="badge both">both</span></td></tr>
+        <tr><td>JEI (Just Enough Items)</td><td>Look up any recipe in-game</td><td><span class="badge client">client</span></td></tr>
+        <tr><td>Jade</td><td>Shows what block/mob you're looking at</td><td><span class="badge both">both</span></td></tr>
+        <tr><td>AppleSkin</td><td>Shows how much food fills you</td><td><span class="badge both">both</span></td></tr>
+        <tr><td>Xaero's Minimap + World Map</td><td>Map you can pull up anytime</td><td><span class="badge client">client</span></td></tr>
+        <tr><td>Inventory Profiles Next</td><td>Sort your inventory with one click</td><td><span class="badge client">client</span></td></tr>
+        <tr><td>Mod Menu</td><td>Browse installed mods in-game</td><td><span class="badge client">client</span></td></tr>
+    </table>
+
+    <hr style="border-color:#333; margin: 36px 0;">
+
+    <h2>Troubleshooting</h2>
+    <ul>
+        <li><strong>Game crashes on startup?</strong> Make sure RAM is set to at least 4096 MB (4 GB) in the Modrinth App.</li>
+        <li><strong>Very laggy / low FPS?</strong> In Video Settings, turn <em>Shaders</em> off. The game will look more plain but run much faster.</li>
+        <li><strong>Can't connect to server?</strong> The server might be offline — ask first!</li>
+    </ul>
+
+</body>
+</html>
