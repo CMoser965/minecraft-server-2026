@@ -5,6 +5,11 @@ file = "index.html"
 hash = "ec1600aaed694c611ee88048fdcdba3e39e3f350a5d1330d50331e9355bbecd8"
 
 [[files]]
+file = "mods/amplified-nether.pw.toml"
+hash = "ada7b7d07e9e7da09d12c369a19353a076cbfea5f10cdc72b3b0516754996495"
+metafile = true
+
+[[files]]
 file = "mods/animal-feeding-trough.pw.toml"
 hash = "c5419af63b6bd3d052eb7f760d96f46e4f5535ac9c8dcca5372ae10624a1d5eb"
 metafile = true
@@ -122,6 +127,11 @@ metafile = true
 [[files]]
 file = "mods/geckolib.pw.toml"
 hash = "fff6e4d51e432f10edb8889c79b734675873ab770b8dfa2c2b77b44390c23f14"
+metafile = true
+
+[[files]]
+file = "mods/geophilic.pw.toml"
+hash = "7053c90942a67d58962ea836850f4d3899c815be3f2539fa2c9ca6f8afc06ef3"
 metafile = true
 
 [[files]]
@@ -250,6 +260,11 @@ hash = "251bae2beb2b613d8e095803351734c8b56f73bf95f3ff9373919dc12bdc0ed5"
 metafile = true
 
 [[files]]
+file = "mods/stellarity.pw.toml"
+hash = "e67a57884a9e513ba17db91d4d4dfe8df611770df7518f2f4d56f87a906945fe"
+metafile = true
+
+[[files]]
 file = "mods/stoneworks.pw.toml"
 hash = "66902281b3a57731297ffe93e70102fed4eefa20ae92b335ad1fdaa14a360307"
 metafile = true
@@ -272,6 +287,16 @@ metafile = true
 [[files]]
 file = "mods/terralith.pw.toml"
 hash = "fd1c3d35ea2e96176272ff717bd0aad69d9cb7d042210d347a3e24c0ac6e47a3"
+metafile = true
+
+[[files]]
+file = "mods/underground-villages.pw.toml"
+hash = "6ee4edb7d83099c49e9835937168d3c17086a3a35cc13469ea5b8d87eab2bc48"
+metafile = true
+
+[[files]]
+file = "mods/underground-worlds.pw.toml"
+hash = "cf15c6869f6dcd8f2a5c25be12f6b6400e36d0e5fc4c505d5086dc048212572b"
 metafile = true
 
 [[files]]

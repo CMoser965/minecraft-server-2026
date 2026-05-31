@@ -1,0 +1,13 @@
+name = "underground-villages"
+filename = "UndergroundVillages-fabric-26.1.2-11.0.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/iQ2U9xwG/versions/ZG27xI3w/UndergroundVillages-fabric-26.1.2-11.0.0.jar"
+hash-format = "sha512"
+hash = "3f480463cff8803ab60ba6279a8f8b76b79fd233558fbcfbb78354a89e195b3f985aec7c750dd5439566ca08df710777e62d9c3937e3fdfffe3d20cc27b3a1e0"
+
+[update]
+[update.modrinth]
+mod-id = "iQ2U9xwG"
+version = "ZG27xI3w"
