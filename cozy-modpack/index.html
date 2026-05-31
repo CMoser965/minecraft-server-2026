@@ -6,37 +6,17 @@
     <title>Cozy Days — Minecraft Modpack</title>
     <style>
         *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-
-        :root {
-            --bg: #0f1117;
-            --surface: #181c27;
-            --border: #252a38;
-            --text: #e2e4ea;
-            --muted: #6b7280;
-            --accent: #3b82f6;
-        }
-
-        body {
-            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-            background: var(--bg);
-            color: var(--text);
-            line-height: 1.6;
-        }
-
+        :root { --bg: #0f1117; --surface: #181c27; --border: #252a38; --text: #e2e4ea; --muted: #6b7280; --accent: #3b82f6; }
+        body { font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: var(--bg); color: var(--text); line-height: 1.6; }
         .container { max-width: 820px; margin: 0 auto; padding: 64px 24px 96px; }
-
         .back { display: inline-flex; align-items: center; gap: 6px; color: var(--muted); font-size: 0.875rem; text-decoration: none; margin-bottom: 48px; }
         .back:hover { color: var(--text); }
-
         header { margin-bottom: 56px; }
         header .tag { font-size: 0.7rem; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: var(--accent); margin-bottom: 12px; }
         header h1 { font-size: 2.25rem; font-weight: 700; letter-spacing: -0.04em; line-height: 1.1; margin-bottom: 12px; }
         header p { color: var(--muted); font-size: 1rem; max-width: 480px; }
-
         .section-label { font-size: 0.7rem; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin-bottom: 24px; }
-
         section { margin-bottom: 64px; }
-
         .steps { display: flex; flex-direction: column; }
         .step { display: grid; grid-template-columns: 44px 1fr; padding-bottom: 32px; }
         .step-line { display: flex; flex-direction: column; align-items: center; }
@@ -49,39 +29,26 @@
         .step-body ol, .step-body ul { color: var(--muted); font-size: 0.875rem; padding-left: 16px; }
         .step-body li { margin-bottom: 4px; }
         .step-body strong { color: var(--text); font-weight: 500; }
-
         .download-btn { display: inline-flex; align-items: center; gap: 8px; background: var(--accent); color: white; padding: 10px 20px; border-radius: 8px; font-size: 0.875rem; font-weight: 600; text-decoration: none; margin: 12px 0; }
         .download-btn:hover { background: #2563eb; }
-
         .note { background: rgba(59,130,246,0.06); border-left: 2px solid rgba(59,130,246,0.25); padding: 10px 14px; border-radius: 0 6px 6px 0; margin-top: 10px; font-size: 0.8rem; color: var(--muted); }
-
         code { background: var(--surface); border: 1px solid var(--border); padding: 1px 6px; border-radius: 4px; font-family: 'SF Mono', 'Fira Code', monospace; font-size: 0.8em; color: #93c5fd; }
-
-        /* Mod tables */
         .mod-section { margin-bottom: 40px; }
         .mod-section-header { display: flex; align-items: center; gap: 12px; margin-bottom: 16px; }
         .mod-section-header h3 { font-size: 0.85rem; font-weight: 600; color: var(--text); }
         .mod-count { font-size: 0.75rem; color: var(--muted); background: var(--surface); border: 1px solid var(--border); padding: 2px 8px; border-radius: 20px; }
-
         .mod-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1px; background: var(--border); border-radius: 8px; overflow: hidden; }
         .mod-row { background: var(--bg); padding: 10px 14px; display: flex; flex-direction: column; gap: 2px; }
         .mod-row:nth-child(odd) { background: #0d1016; }
         .mod-name { font-size: 0.85rem; font-weight: 500; color: var(--text); }
         .mod-desc { font-size: 0.78rem; color: var(--muted); }
-
-        .badge { display: inline-block; padding: 2px 8px; border-radius: 20px; font-size: 0.7rem; font-weight: 600; }
-        .badge-client { background: rgba(59,130,246,0.12); color: #93c5fd; }
-        .badge-both { background: rgba(34,197,94,0.1); color: #86efac; }
-
         .trouble-list { list-style: none; display: flex; flex-direction: column; gap: 14px; }
         .trouble-list li { font-size: 0.875rem; color: var(--muted); padding-left: 16px; position: relative; }
         .trouble-list li::before { content: '—'; position: absolute; left: 0; }
         .trouble-list strong { color: var(--text); font-weight: 500; }
-
         a { color: #93c5fd; text-decoration: none; }
         a:hover { text-decoration: underline; }
         hr { border: none; border-top: 1px solid var(--border); margin-bottom: 56px; }
-
         @media (max-width: 560px) { .mod-grid { grid-template-columns: 1fr; } }
     </style>
 </head>
@@ -112,7 +79,7 @@
                 <div class="step-line"><div class="step-num">2</div><div class="step-connector"></div></div>
                 <div class="step-body">
                     <h3>Sign in with Microsoft</h3>
-                    <p>When the app opens, click <strong>Sign in</strong> and log in with the Microsoft account your copy of Minecraft is tied to. Your username should appear at the top once signed in.</p>
+                    <p>When the app opens, click <strong>Sign in</strong> and log in with the Microsoft account your copy of Minecraft is tied to.</p>
                     <div class="note">Not sure which account? Check your email for a receipt from Microsoft when the game was purchased.</div>
                 </div>
             </div>
@@ -120,17 +87,16 @@
                 <div class="step-line"><div class="step-num">3</div><div class="step-connector"></div></div>
                 <div class="step-body">
                     <h3>Import the modpack</h3>
-                    <p>Download the pack file, then import it into the Modrinth App.</p>
                     <a class="download-btn" href="cozy-days.mrpack">Download cozy-days.mrpack</a>
                     <p>In the Modrinth App: <strong>Library</strong> → <strong>+</strong> → <strong>Import</strong> → select the file you just downloaded.</p>
-                    <div class="note">First launch downloads all mods — takes 2–3 minutes.</div>
+                    <div class="note">First launch downloads all mods — takes a few minutes.</div>
                 </div>
             </div>
             <div class="step">
                 <div class="step-line"><div class="step-num">4</div><div class="step-connector"></div></div>
                 <div class="step-body">
                     <h3>Allocate memory</h3>
-                    <p>In the Modrinth App, click <strong>···</strong> next to Cozy Days → <strong>Edit</strong> → <strong>Java</strong> tab → set Maximum memory to <code>6144</code> MB → Save.</p>
+                    <p>Click <strong>···</strong> next to Cozy Days → <strong>Edit</strong> → <strong>Java</strong> tab → set Maximum memory to <code>8192</code> MB → Save.</p>
                 </div>
             </div>
             <div class="step">
@@ -151,44 +117,63 @@
         <div class="mod-section">
             <div class="mod-section-header">
                 <h3>Server + Client</h3>
-                <span class="mod-count">installed on both sides</span>
+                <span class="mod-count">76 mods — installed on both sides</span>
             </div>
             <div class="mod-grid">
+                <!-- World gen -->
                 <div class="mod-row"><span class="mod-name">Terralith</span><span class="mod-desc">Completely overhauled terrain and biomes</span></div>
-                <div class="mod-row"><span class="mod-name">Biomes O' Plenty</span><span class="mod-desc">Dozens of new biomes to explore</span></div>
-                <div class="mod-row"><span class="mod-name">Wilder Wild</span><span class="mod-desc">Better swamps, caves, fireflies, ambience</span></div>
+                <div class="mod-row"><span class="mod-name">Biomes O' Plenty</span><span class="mod-desc">80+ new biomes to explore</span></div>
                 <div class="mod-row"><span class="mod-name">Tectonic</span><span class="mod-desc">Larger, more dramatic terrain shaping</span></div>
                 <div class="mod-row"><span class="mod-name">Geophilic</span><span class="mod-desc">Subtle improvements to vanilla biomes</span></div>
-                <div class="mod-row"><span class="mod-name">Promenade</span><span class="mod-desc">More biomes and structures</span></div>
-                <div class="mod-row"><span class="mod-name">Amplified Nether</span><span class="mod-desc">Taller, more dramatic Nether</span></div>
-                <div class="mod-row"><span class="mod-name">Incendium</span><span class="mod-desc">Nether overhaul — new biomes and structures</span></div>
-                <div class="mod-row"><span class="mod-name">Nullscape</span><span class="mod-desc">End atmosphere overhaul</span></div>
-                <div class="mod-row"><span class="mod-name">Stellarity</span><span class="mod-desc">End dimension new biomes and mobs</span></div>
+                <div class="mod-row"><span class="mod-name">Promenade</span><span class="mod-desc">New biomes and natural structures</span></div>
+                <div class="mod-row"><span class="mod-name">Wilder Wild</span><span class="mod-desc">Better swamps, caves, fireflies, ambience</span></div>
                 <div class="mod-row"><span class="mod-name">Underground Worlds</span><span class="mod-desc">A whole underground cave dimension</span></div>
                 <div class="mod-row"><span class="mod-name">Underground Villages</span><span class="mod-desc">Villages spawning underground</span></div>
+                <div class="mod-row"><span class="mod-name">Amplified Nether</span><span class="mod-desc">Taller, more dramatic Nether</span></div>
+                <div class="mod-row"><span class="mod-name">Incendium</span><span class="mod-desc">Nether overhaul — new biomes and structures</span></div>
+                <div class="mod-row"><span class="mod-name">Moog's Nether Structures</span><span class="mod-desc">New structures throughout the Nether</span></div>
+                <div class="mod-row"><span class="mod-name">Nullscape</span><span class="mod-desc">End atmosphere overhaul</span></div>
+                <div class="mod-row"><span class="mod-name">Stellarity</span><span class="mod-desc">End dimension new biomes and mobs</span></div>
+                <!-- Mobs -->
                 <div class="mod-row"><span class="mod-name">Wild Animals</span><span class="mod-desc">New animals throughout the world</span></div>
                 <div class="mod-row"><span class="mod-name">Friends & Foes</span><span class="mod-desc">Copper Golem, Moobloom, Glare and more</span></div>
                 <div class="mod-row"><span class="mod-name">Realistic Bees</span><span class="mod-desc">Better bee behavior and appearances</span></div>
                 <div class="mod-row"><span class="mod-name">Snuffles</span><span class="mod-desc">Adorable new creature</span></div>
-                <div class="mod-row"><span class="mod-name">Jagm's Kiwis</span><span class="mod-desc">Kiwi birds roaming the world</span></div>
+                <div class="mod-row"><span class="mod-name">Lovely Snails</span><span class="mod-desc">Very cute snails roaming the world</span></div>
+                <div class="mod-row"><span class="mod-name">Jagm's Kiwis</span><span class="mod-desc">Kiwi birds in the wild</span></div>
                 <div class="mod-row"><span class="mod-name">Fish of Thieves</span><span class="mod-desc">New fish variants throughout oceans</span></div>
                 <div class="mod-row"><span class="mod-name">Ecologics</span><span class="mod-desc">New critters in existing biomes</span></div>
-                <div class="mod-row"><span class="mod-name">Frostiful</span><span class="mod-desc">Cold weather and freezing mechanics</span></div>
+                <!-- Weather / seasons -->
                 <div class="mod-row"><span class="mod-name">Serene Seasons</span><span class="mod-desc">Seasons — spring, summer, autumn, winter</span></div>
+                <div class="mod-row"><span class="mod-name">Frostiful</span><span class="mod-desc">Cold weather and freezing mechanics</span></div>
                 <div class="mod-row"><span class="mod-name">Cool Rain</span><span class="mod-desc">Improved rain visuals and sounds</span></div>
+                <!-- Food -->
                 <div class="mod-row"><span class="mod-name">Farmer's Delight</span><span class="mod-desc">New food, cooking, and farming</span></div>
-                <div class="mod-row"><span class="mod-name">More Delight</span><span class="mod-desc">Adds more recipes to Farmer's Delight</span></div>
+                <div class="mod-row"><span class="mod-name">More Delight</span><span class="mod-desc">More recipes for Farmer's Delight</span></div>
+                <div class="mod-row"><span class="mod-name">Rustic Delight</span><span class="mod-desc">Rustic-themed Farmer's Delight addon</span></div>
+                <div class="mod-row"><span class="mod-name">Crate Delight</span><span class="mod-desc">Crate-themed Farmer's Delight addon</span></div>
+                <div class="mod-row"><span class="mod-name">Storage Delight</span><span class="mod-desc">Storage-themed Farmer's Delight addon</span></div>
                 <div class="mod-row"><span class="mod-name">Animal Feeding Trough</span><span class="mod-desc">Auto-feed animals from a trough</span></div>
+                <!-- Building -->
                 <div class="mod-row"><span class="mod-name">Macaw's Furniture</span><span class="mod-desc">Chairs, tables, shelves, and more</span></div>
                 <div class="mod-row"><span class="mod-name">Macaw's Doors</span><span class="mod-desc">Many new door styles</span></div>
+                <div class="mod-row"><span class="mod-name">Macaw's Windows</span><span class="mod-desc">New window styles</span></div>
+                <div class="mod-row"><span class="mod-name">Macaw's Trapdoors</span><span class="mod-desc">New trapdoor styles</span></div>
                 <div class="mod-row"><span class="mod-name">Macaw's Roofs</span><span class="mod-desc">New roof blocks for cozy builds</span></div>
+                <div class="mod-row"><span class="mod-name">Macaw's Stairs</span><span class="mod-desc">New stair styles</span></div>
                 <div class="mod-row"><span class="mod-name">Macaw's Bridges</span><span class="mod-desc">Build real-looking bridges</span></div>
+                <div class="mod-row"><span class="mod-name">Macaw's Paintings</span><span class="mod-desc">New paintings for walls</span></div>
+                <div class="mod-row"><span class="mod-name">Macaw's Holidays</span><span class="mod-desc">Seasonal and holiday decorations</span></div>
+                <div class="mod-row"><span class="mod-name">Dark Paintings</span><span class="mod-desc">New eerie painting variants</span></div>
+                <div class="mod-row"><span class="mod-name">Immersive Paintings</span><span class="mod-desc">Custom paintings with real images</span></div>
                 <div class="mod-row"><span class="mod-name">Diagonal Windows</span><span class="mod-desc">Diagonal glass panes</span></div>
                 <div class="mod-row"><span class="mod-name">Diagonal Fences</span><span class="mod-desc">Diagonal fence connections</span></div>
-                <div class="mod-row"><span class="mod-name">Stoneworks</span><span class="mod-desc">Many new stone and brick block variants</span></div>
+                <div class="mod-row"><span class="mod-name">Diagonal Walls</span><span class="mod-desc">Diagonal wall connections</span></div>
+                <div class="mod-row"><span class="mod-name">Stoneworks</span><span class="mod-desc">Many new stone and brick variants</span></div>
+                <div class="mod-row"><span class="mod-name">Effortless Building</span><span class="mod-desc">Builder's wand — mirror, line, array placement</span></div>
                 <div class="mod-row"><span class="mod-name">Bartering Station</span><span class="mod-desc">Dedicated block for piglin bartering</span></div>
+                <!-- Structures -->
                 <div class="mod-row"><span class="mod-name">Dungeons & Taverns</span><span class="mod-desc">Villages with inns, towers, new dungeons</span></div>
-                <div class="mod-row"><span class="mod-name">When Dungeons Arise</span><span class="mod-desc">Massive gorgeous dungeons to explore</span></div>
                 <div class="mod-row"><span class="mod-name">Battle Towers</span><span class="mod-desc">Tall towers full of enemies to climb</span></div>
                 <div class="mod-row"><span class="mod-name">Explorify</span><span class="mod-desc">New caves and structures to discover</span></div>
                 <div class="mod-row"><span class="mod-name">Structory</span><span class="mod-desc">Small vanilla-style scattered structures</span></div>
@@ -196,54 +181,80 @@
                 <div class="mod-row"><span class="mod-name">Towns & Towers</span><span class="mod-desc">New village variants and outposts</span></div>
                 <div class="mod-row"><span class="mod-name">AdoraBuild Structures</span><span class="mod-desc">Unique hand-crafted structures</span></div>
                 <div class="mod-row"><span class="mod-name">Katter's Structures</span><span class="mod-desc">New dungeons with unique loot</span></div>
+                <div class="mod-row"><span class="mod-name">Medieval Buildings</span><span class="mod-desc">Medieval structures in the overworld</span></div>
+                <div class="mod-row"><span class="mod-name">Medieval Buildings: Nether</span><span class="mod-desc">Medieval structures in the Nether</span></div>
+                <div class="mod-row"><span class="mod-name">Medieval Buildings: End</span><span class="mod-desc">Medieval structures in the End</span></div>
+                <div class="mod-row"><span class="mod-name">Moog's Voyager Structures</span><span class="mod-desc">New overworld structures</span></div>
+                <!-- Gameplay / QoL -->
                 <div class="mod-row"><span class="mod-name">Waystones</span><span class="mod-desc">Fast travel between placed waystone blocks</span></div>
                 <div class="mod-row"><span class="mod-name">Trek</span><span class="mod-desc">Better exploration — trails and tracking</span></div>
-                <div class="mod-row"><span class="mod-name">Effortless Building</span><span class="mod-desc">Builder's wand — mirror, line, array placement</span></div>
+                <div class="mod-row"><span class="mod-name">Traveler's Backpack</span><span class="mod-desc">Wearable backpacks with extra inventory</span></div>
                 <div class="mod-row"><span class="mod-name">Graves</span><span class="mod-desc">Items saved in a grave on death</span></div>
                 <div class="mod-row"><span class="mod-name">Respawnable Pets</span><span class="mod-desc">Pets respawn after dying</span></div>
                 <div class="mod-row"><span class="mod-name">Artifacts</span><span class="mod-desc">Unique treasure items found in dungeons</span></div>
                 <div class="mod-row"><span class="mod-name">Spawn Animations</span><span class="mod-desc">Mobs animate in when they spawn</span></div>
+                <div class="mod-row"><span class="mod-name">No Chat Reports</span><span class="mod-desc">Removes Mojang chat reporting</span></div>
                 <div class="mod-row"><span class="mod-name">Jade</span><span class="mod-desc">Shows what block or mob you're looking at</span></div>
                 <div class="mod-row"><span class="mod-name">AppleSkin</span><span class="mod-desc">Shows hunger and saturation values</span></div>
-                <div class="mod-row"><span class="mod-name">Chunky</span><span class="mod-desc">Pre-generates chunks for smoother exploration</span></div>
-                <div class="mod-row"><span class="mod-name">Lithium</span><span class="mod-desc">Server-side game logic optimization</span></div>
-                <div class="mod-row"><span class="mod-name">FerriteCore</span><span class="mod-desc">Reduces memory usage</span></div>
-                <div class="mod-row"><span class="mod-name">Clumps</span><span class="mod-desc">Groups XP orbs to reduce lag</span></div>
+                <div class="mod-row"><span class="mod-name">VMP</span><span class="mod-desc">Server performance under many players</span></div>
                 <div class="mod-row"><span class="mod-name">C2ME</span><span class="mod-desc">Parallel chunk loading — faster world gen</span></div>
-                <div class="mod-row"><span class="mod-name">Krypton</span><span class="mod-desc">Optimizes network stack</span></div>
+                <div class="mod-row"><span class="mod-name">Lithium</span><span class="mod-desc">Server-side game logic optimization</span></div>
+                <div class="mod-row"><span class="mod-name">FerriteCore</span><span class="mod-desc">Reduces memory usage significantly</span></div>
+                <div class="mod-row"><span class="mod-name">Clumps</span><span class="mod-desc">Groups XP orbs to reduce lag</span></div>
+                <div class="mod-row"><span class="mod-name">Chunky</span><span class="mod-desc">Pre-generates chunks for smoother exploration</span></div>
             </div>
         </div>
 
         <div class="mod-section">
             <div class="mod-section-header">
                 <h3>Client Only</h3>
-                <span class="mod-count">not installed on server</span>
+                <span class="mod-count">40 mods — not installed on server</span>
             </div>
             <div class="mod-grid">
-                <div class="mod-row"><span class="mod-name">Sodium</span><span class="mod-desc">Rendering engine rewrite — huge FPS boost</span></div>
+                <!-- Perf -->
+                <div class="mod-row"><span class="mod-name">Sodium</span><span class="mod-desc">Rendering engine rewrite — massive FPS boost</span></div>
                 <div class="mod-row"><span class="mod-name">Sodium Extra + Reese's Options</span><span class="mod-desc">More Sodium settings and a better UI for them</span></div>
-                <div class="mod-row"><span class="mod-name">Iris Shaders</span><span class="mod-desc">Shader support — enables Complementary Unbound</span></div>
                 <div class="mod-row"><span class="mod-name">ImmediatelyFast</span><span class="mod-desc">Faster UI and entity rendering</span></div>
+                <div class="mod-row"><span class="mod-name">Better Block Entities</span><span class="mod-desc">Faster rendering of chests, signs, banners</span></div>
                 <div class="mod-row"><span class="mod-name">Entity Culling</span><span class="mod-desc">Skips rendering entities you can't see</span></div>
+                <div class="mod-row"><span class="mod-name">Cull Fewer Leaves</span><span class="mod-desc">Small performance boost on leaf rendering</span></div>
+                <div class="mod-row"><span class="mod-name">Dynamic FPS</span><span class="mod-desc">Drops to 1 FPS when tabbed out — saves resources</span></div>
+                <div class="mod-row"><span class="mod-name">Ksyxis</span><span class="mod-desc">Faster world loading screen</span></div>
+                <!-- Visuals -->
+                <div class="mod-row"><span class="mod-name">Iris Shaders</span><span class="mod-desc">Shader support — enables Complementary Unbound</span></div>
                 <div class="mod-row"><span class="mod-name">LambDynamicLights</span><span class="mod-desc">Held items emit dynamic light</span></div>
+                <div class="mod-row"><span class="mod-name">Entity Texture Features</span><span class="mod-desc">OptiFine entity texture support</span></div>
+                <div class="mod-row"><span class="mod-name">Entity Model Features</span><span class="mod-desc">OptiFine entity model support</span></div>
+                <div class="mod-row"><span class="mod-name">Continuity</span><span class="mod-desc">OptiFine connected textures support</span></div>
+                <div class="mod-row"><span class="mod-name">Animatica Refabricated</span><span class="mod-desc">Animated textures in resource packs</span></div>
+                <div class="mod-row"><span class="mod-name">Distant Horizons</span><span class="mod-desc">LOD rendering — see terrain miles away</span></div>
+                <div class="mod-row"><span class="mod-name">Bobby</span><span class="mod-desc">Caches chunks for greater view distance</span></div>
                 <div class="mod-row"><span class="mod-name">Particle Rain</span><span class="mod-desc">Improved rain and snow particles</span></div>
                 <div class="mod-row"><span class="mod-name">Visuality</span><span class="mod-desc">Extra visual effects for hits, crits, etc.</span></div>
                 <div class="mod-row"><span class="mod-name">Subtle Effects</span><span class="mod-desc">Ambient visual polish throughout the world</span></div>
-                <div class="mod-row"><span class="mod-name">Presence Footsteps</span><span class="mod-desc">Detailed footstep sounds per surface type</span></div>
+                <div class="mod-row"><span class="mod-name">Falling Leaves</span><span class="mod-desc">Leaves gently fall from trees</span></div>
                 <div class="mod-row"><span class="mod-name">Snow Under Trees</span><span class="mod-desc">Snow accumulates under tree canopies</span></div>
-                <div class="mod-row"><span class="mod-name">Better Animations Collection</span><span class="mod-desc">Smoother, more natural mob animations</span></div>
                 <div class="mod-row"><span class="mod-name">3D Skin Layers</span><span class="mod-desc">Skin outer layers rendered in 3D</span></div>
-                <div class="mod-row"><span class="mod-name">BedrockIfy</span><span class="mod-desc">Bedrock-style UI tweaks and improvements</span></div>
-                <div class="mod-row"><span class="mod-name">Do a Barrel Roll</span><span class="mod-desc">Elytra aerial tricks and better flight feel</span></div>
+                <div class="mod-row"><span class="mod-name">Better Animations Collection</span><span class="mod-desc">Smoother, more natural mob animations</span></div>
+                <div class="mod-row"><span class="mod-name">BedrockIfy</span><span class="mod-desc">Bedrock-style UI tweaks</span></div>
+                <!-- Audio -->
+                <div class="mod-row"><span class="mod-name">AmbientSounds</span><span class="mod-desc">Atmospheric ambient sounds in every biome</span></div>
+                <div class="mod-row"><span class="mod-name">Sound Physics Remastered</span><span class="mod-desc">Realistic reverb and echo based on surroundings</span></div>
+                <div class="mod-row"><span class="mod-name">Presence Footsteps</span><span class="mod-desc">Detailed footstep sounds per surface type</span></div>
+                <!-- QoL -->
                 <div class="mod-row"><span class="mod-name">JEI</span><span class="mod-desc">Look up any crafting recipe in-game</span></div>
                 <div class="mod-row"><span class="mod-name">Enchantment Descriptions</span><span class="mod-desc">Explains what each enchantment does</span></div>
                 <div class="mod-row"><span class="mod-name">Xaero's Minimap</span><span class="mod-desc">Minimap in the corner of your screen</span></div>
                 <div class="mod-row"><span class="mod-name">Xaero's World Map</span><span class="mod-desc">Full map of everywhere you've explored</span></div>
                 <div class="mod-row"><span class="mod-name">Nature's Compass</span><span class="mod-desc">Find any biome by name</span></div>
                 <div class="mod-row"><span class="mod-name">Inventory Profiles Next</span><span class="mod-desc">Sort inventory in one click</span></div>
+                <div class="mod-row"><span class="mod-name">Inventory Sorting</span><span class="mod-desc">Keybind-based inventory sorting</span></div>
+                <div class="mod-row"><span class="mod-name">Mouse Tweaks</span><span class="mod-desc">Scroll to move item stacks between slots</span></div>
+                <div class="mod-row"><span class="mod-name">Ok Zoomer</span><span class="mod-desc">Zoom key like OptiFine</span></div>
+                <div class="mod-row"><span class="mod-name">Do a Barrel Roll</span><span class="mod-desc">Elytra aerial tricks and better flight</span></div>
+                <div class="mod-row"><span class="mod-name">e4mc</span><span class="mod-desc">Share your world over internet without port forwarding</span></div>
                 <div class="mod-row"><span class="mod-name">BetterF3</span><span class="mod-desc">Cleaner, more readable debug screen</span></div>
                 <div class="mod-row"><span class="mod-name">Mod Menu</span><span class="mod-desc">Browse and configure installed mods</span></div>
-                <div class="mod-row"><span class="mod-name">Ksyxis</span><span class="mod-desc">Faster world loading screen</span></div>
             </div>
         </div>
     </section>
@@ -254,8 +265,9 @@
         <div class="section-label">Troubleshooting</div>
         <ul class="trouble-list">
             <li><strong>Can't sign in</strong> — use the email the Minecraft account was purchased on. Try signing in at <a href="https://minecraft.net" target="_blank">minecraft.net</a> to confirm it works.</li>
-            <li><strong>Game crashes on startup</strong> — go back to step 4 and set memory to at least <code>4096</code> MB.</li>
+            <li><strong>Game crashes on startup</strong> — go back to step 4 and set memory to at least <code>4096</code> MB. Recommended is <code>8192</code>.</li>
             <li><strong>Low FPS</strong> — open Video Settings in-game and turn Shaders off. Looks plainer but runs much faster.</li>
+            <li><strong>Very low FPS with Distant Horizons</strong> — reduce the LOD render distance in its settings, or disable it entirely.</li>
             <li><strong>Can't connect to server</strong> — double-check the address including any <code>:</code> and numbers. Server might also be offline.</li>
         </ul>
     </section>
