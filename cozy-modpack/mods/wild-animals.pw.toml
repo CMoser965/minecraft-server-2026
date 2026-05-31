@@ -1,0 +1,13 @@
+name = "wild-animals"
+filename = "wild-animals-2.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/keCK51Z8/versions/SgsSgRG8/wild-animals-2.0.jar"
+hash-format = "sha512"
+hash = "1bb0b2e13fe70123c12b4a84cee3c303360baedd5f44ddb7cf54d7ffbb2cd096dd1f48ee025878bab89624be0bcb1bb5b73a5ab7987277fc2418ed5edf3a4735"
+
+[update]
+[update.modrinth]
+mod-id = "keCK51Z8"
+version = "SgsSgRG8"

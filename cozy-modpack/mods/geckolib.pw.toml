@@ -1,13 +1,13 @@
 name = "geckolib"
-filename = "geckolib-fabric-1.20.1-4.8.3.jar"
+filename = "geckolib-fabric-26.1.2-5.5.1.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/8BmcQJ2H/versions/PdrSPr53/geckolib-fabric-1.20.1-4.8.3.jar"
+url = "https://cdn.modrinth.com/data/8BmcQJ2H/versions/gXL7ILee/geckolib-fabric-26.1.2-5.5.1.jar"
 hash-format = "sha512"
-hash = "3f0cef7eef4507b4d5b82bb70ffc2349bcbbf3597990101c75e80ff32b3fa46427679d4ed4c8e1f86b83d7fb4168a0caea2764e14d86e83b65b6f3709eb602dd"
+hash = "4ceaa5dfaa17f4a1883e89dc42eadf0d9def341274410b9236d92888d8bf74dd82f73efeadaed11a0bbdf71f31d7a77ab05c0e8cd37dec18e2d8f41701bb61a6"
 
 [update]
 [update.modrinth]
 mod-id = "8BmcQJ2H"
-version = "PdrSPr53"
+version = "gXL7ILee"

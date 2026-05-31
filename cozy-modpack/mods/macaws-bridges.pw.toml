@@ -1,13 +1,13 @@
 name = "macaws-bridges"
-filename = "mcw-bridges-3.1.2-mc1.20.1fabric.jar"
+filename = "mcw-bridges-3.1.2-mc26.1fabric.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/GURcjz8O/versions/bt7noi5F/mcw-bridges-3.1.2-mc1.20.1fabric.jar"
+url = "https://cdn.modrinth.com/data/GURcjz8O/versions/QLLyZd4W/mcw-bridges-3.1.2-mc26.1fabric.jar"
 hash-format = "sha512"
-hash = "1603f9559e097dda91d16a35c841fefe91eefb04b7e52926ac64cdf5edf9def2219f13fb27561b1afb03ad7aeeee3d85c6aa48e009de26ac45aab555feb25d2e"
+hash = "42c39a417b94cf773de91a651ad99c14c0e743f696bf74b42763584e0a94627b786fc84bcdb69bc47042b585abcb7bd5c195b7b608f62d4032d2cfd77d178bca"
 
 [update]
 [update.modrinth]
 mod-id = "GURcjz8O"
-version = "bt7noi5F"
+version = "QLLyZd4W"
