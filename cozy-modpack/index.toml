@@ -15,6 +15,11 @@ hash = "aa0f4114f3775abb2dcd434a0bb3c7653589068d741b90177e2c941bd9ee1e80"
 metafile = true
 
 [[files]]
+file = "mods/ambientsounds.pw.toml"
+hash = "2eca7e7407a31422a90f9fc1c0aa575062a5da9c54530d5b6aa7b3ed9fd7adf8"
+metafile = true
+
+[[files]]
 file = "mods/amplified-nether.pw.toml"
 hash = "ada7b7d07e9e7da09d12c369a19353a076cbfea5f10cdc72b3b0516754996495"
 metafile = true
@@ -22,6 +27,11 @@ metafile = true
 [[files]]
 file = "mods/animal-feeding-trough.pw.toml"
 hash = "c5419af63b6bd3d052eb7f760d96f46e4f5535ac9c8dcca5372ae10624a1d5eb"
+metafile = true
+
+[[files]]
+file = "mods/animaticarefabricated.pw.toml"
+hash = "0703308080e77bdea44c12e9c520f20edd1c1bd4d9cff77efe24099e23441342"
 metafile = true
 
 [[files]]
@@ -147,6 +157,11 @@ metafile = true
 [[files]]
 file = "mods/diagonal-windows.pw.toml"
 hash = "a9efdf51ae0ace10ff421afb864527c76247ba83e8a1b94f33e92d9d9a7d0644"
+metafile = true
+
+[[files]]
+file = "mods/distanthorizons.pw.toml"
+hash = "c4acda4dd17b45ef41089c261649437ab53882c29c42b0ab63cecfe49aff3232"
 metafile = true
 
 [[files]]
