@@ -260,6 +260,11 @@ hash = "bc1dd84c01abcd8760b2193c751957c8c2429194abf789aa8e33882aeef4b11c"
 metafile = true
 
 [[files]]
+file = "mods/inventory-sorting.pw.toml"
+hash = "ec63eb2c12b4097acde850b046b2ae5b77b1a1469c41faaf1cfccd1b260129f9"
+metafile = true
+
+[[files]]
 file = "mods/iris.pw.toml"
 hash = "00bc966654b11de3cb12c10d0553b97519330d16741671deceadb29f2ebe8af8"
 metafile = true
@@ -402,6 +407,11 @@ metafile = true
 [[files]]
 file = "mods/more-delight.pw.toml"
 hash = "c151c099cac680d47aad7cd25b148d60f8a7d60da45fceab4e8e814abbe9f977"
+metafile = true
+
+[[files]]
+file = "mods/mouse-tweaks.pw.toml"
+hash = "b3f2da9ea55d740f172811783a48d7e929f4076ecbf08df8d6a012f52c675c1e"
 metafile = true
 
 [[files]]
