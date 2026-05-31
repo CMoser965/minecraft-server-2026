@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "index.html"
-hash = "7bda5dc01d1123318636d5e0bb9d79bc376555a4969fee3fd7199fe6be0ad900"
+hash = "e4c9c323710da988d64b8ca6c8419fe8adebf8f58f2bbe34600668d6120b5ead"
 
 [[files]]
 file = "mods/3dskinlayers.pw.toml"
@@ -127,6 +127,16 @@ metafile = true
 [[files]]
 file = "mods/crate-delight.pw.toml"
 hash = "39c39859659542dc1c19e3269a02f645fecdc8d1ef9a1bbad1b585d7a1fceb00"
+metafile = true
+
+[[files]]
+file = "mods/creativecore.pw.toml"
+hash = "b9aed80c3a56ecfc82bb3e55558265057408b34e1f00a6e8506125bcc791ffa6"
+metafile = true
+
+[[files]]
+file = "mods/cristel-lib.pw.toml"
+hash = "f92f0806aef5bfea553cb361e273be4eb944af8998b2513cd4b1d207c7f46fca"
 metafile = true
 
 [[files]]
@@ -447,6 +457,11 @@ metafile = true
 [[files]]
 file = "mods/modmenu.pw.toml"
 hash = "6e8ea30236a7add47c7169f0f5d55c0d920b57f7d82e5bd76330a63f6ad34890"
+metafile = true
+
+[[files]]
+file = "mods/moogs-structure-lib.pw.toml"
+hash = "13677fd24b63690a2ac85714b7fcb5c18e8b4fc6673af8da8469c2323553c248"
 metafile = true
 
 [[files]]
