@@ -2,11 +2,36 @@ hash-format = "sha256"
 
 [[files]]
 file = "index.html"
-hash = "eda1d1c56c3834bdb0fbbbffec94e4845665b95be9468c83acc6bf7507473d97"
+hash = "ec1600aaed694c611ee88048fdcdba3e39e3f350a5d1330d50331e9355bbecd8"
+
+[[files]]
+file = "mods/animal-feeding-trough.pw.toml"
+hash = "c5419af63b6bd3d052eb7f760d96f46e4f5535ac9c8dcca5372ae10624a1d5eb"
+metafile = true
 
 [[files]]
 file = "mods/appleskin.pw.toml"
 hash = "739d4f36a63e451a332f81b428351c269efce6854c2fc0090d9397a37afcf83b"
+metafile = true
+
+[[files]]
+file = "mods/artifacts.pw.toml"
+hash = "0d9076327fc827d3067d5c57af30dc3d1f2db9e8716b79cb9eda773f2c3cea5a"
+metafile = true
+
+[[files]]
+file = "mods/battle-towers.pw.toml"
+hash = "924411189a7b089f649845524f392f625b789a93aabe6f4bea549c46931aabd3"
+metafile = true
+
+[[files]]
+file = "mods/bedrockify.pw.toml"
+hash = "e08a83d1dda660fb20a5a6f2ffdd6845ee67416e923434585b227cab3018eb7d"
+metafile = true
+
+[[files]]
+file = "mods/better-animations-collection.pw.toml"
+hash = "a8099e9308c0d4d2c1c9071cddc21364b69b06bfe4ab0ba79e9ff727f0ab3dda"
 metafile = true
 
 [[files]]
@@ -15,8 +40,48 @@ hash = "d90b9e534bfbfe7f8558e0bedb67a12a45d6d512997c49311e927a1665ebf324"
 metafile = true
 
 [[files]]
+file = "mods/c2me-fabric.pw.toml"
+hash = "8fc7bdfbe2e6a526c345b533a915bc39e38a8eb197078d780d3d868f4b6168b6"
+metafile = true
+
+[[files]]
+file = "mods/chunky.pw.toml"
+hash = "7dcc2783acc3400fd619008cb3c51168a3e244a5fa2dd4435c7bd887a03f92ba"
+metafile = true
+
+[[files]]
+file = "mods/clumps.pw.toml"
+hash = "35b584bd96b04b3eb0d4aabbf5a213dfe798cfaebc02e0bc4e27392373cff128"
+metafile = true
+
+[[files]]
+file = "mods/diagonal-fences.pw.toml"
+hash = "c5b600daece55efd9b85ac8cc5c4aab477c1e6408f746e22bffe7bb43cb412c5"
+metafile = true
+
+[[files]]
+file = "mods/diagonal-windows.pw.toml"
+hash = "a9efdf51ae0ace10ff421afb864527c76247ba83e8a1b94f33e92d9d9a7d0644"
+metafile = true
+
+[[files]]
+file = "mods/do-a-barrel-roll.pw.toml"
+hash = "713d533c90f6fe75f1e6a6394280791d49b9ec02a4ac3e9b8afb65ca6d685d5b"
+metafile = true
+
+[[files]]
 file = "mods/dungeons-and-taverns.pw.toml"
 hash = "fdab3d5d08ddc0bead9547870d23c6956054fb0b49dc11dceaa13bd9236acd1c"
+metafile = true
+
+[[files]]
+file = "mods/ecologics.pw.toml"
+hash = "a4b1efd85fd5f8e0156dd10a1f4cb4ed145cc602a78501e62317f9b09a23a8c7"
+metafile = true
+
+[[files]]
+file = "mods/effortless-building.pw.toml"
+hash = "3838fc2ef942b33899d16c15e4c7f1be5880c89152dbb8b2392f77ac893d8ffe"
 metafile = true
 
 [[files]]
@@ -60,6 +125,16 @@ hash = "fff6e4d51e432f10edb8889c79b734675873ab770b8dfa2c2b77b44390c23f14"
 metafile = true
 
 [[files]]
+file = "mods/immediatelyfast.pw.toml"
+hash = "801b95d55da1e55be20f748c5ed16d8355fe6ef853d7f666ca8a9a7a728c356f"
+metafile = true
+
+[[files]]
+file = "mods/incendium.pw.toml"
+hash = "8deb2d645ab0baa5aac4d7b85f48933e3f7384aad35fb7dca1f9962d0aa2ca9c"
+metafile = true
+
+[[files]]
 file = "mods/inventory-profiles-next.pw.toml"
 hash = "bc1dd84c01abcd8760b2193c751957c8c2429194abf789aa8e33882aeef4b11c"
 metafile = true
@@ -80,8 +155,23 @@ hash = "2e7c128cde90c35b85c63935928915f2639d114633171b5d10317cc8e18cb125"
 metafile = true
 
 [[files]]
+file = "mods/krypton.pw.toml"
+hash = "e78bde08eb93f40b0a092967c0c7950099b0cd4a1d97b67ac28a43cc6813137a"
+metafile = true
+
+[[files]]
+file = "mods/ksyxis.pw.toml"
+hash = "5ee4e0ffe2ab7dd04c2bdd2cb471dccf8bbe04b50d6a86028fca9e3ad2f0f01f"
+metafile = true
+
+[[files]]
 file = "mods/lithium.pw.toml"
 hash = "41087b5b4f9f5ec916fbb7b0e726dfa80551bbf00f5c8380f8fe33d0093d215e"
+metafile = true
+
+[[files]]
+file = "mods/lithostitched.pw.toml"
+hash = "7fd2ae9d78606311d36c1c4734670acb6c533ba292011a8aa24f82b34b9c0f5a"
 metafile = true
 
 [[files]]
@@ -110,13 +200,88 @@ hash = "6e8ea30236a7add47c7169f0f5d55c0d920b57f7d82e5bd76330a63f6ad34890"
 metafile = true
 
 [[files]]
+file = "mods/natures-compass.pw.toml"
+hash = "e45e301d1b2b03ef40743134c95e099a9edd15887d821943afa73932249d7c6b"
+metafile = true
+
+[[files]]
+file = "mods/nullscape.pw.toml"
+hash = "0d21d030950f98bf44c865eddc0962838bbe642edb570d53f1e08415c8b68795"
+metafile = true
+
+[[files]]
+file = "mods/particle-rain.pw.toml"
+hash = "54bff57f649cab7dbb6a833f4ea1d16c7d7a5894c51fd7c247f90739c872906c"
+metafile = true
+
+[[files]]
+file = "mods/presence-footsteps.pw.toml"
+hash = "b7a00855934492233c0b1772865e1d4dceba8ce35ccf83653014fe16dd964c44"
+metafile = true
+
+[[files]]
+file = "mods/promenade.pw.toml"
+hash = "fefc52b0d47a994d5f8ef29d03e084494a8baa291f562b7f3525ce037e341178"
+metafile = true
+
+[[files]]
+file = "mods/reeses-sodium-options.pw.toml"
+hash = "8e98cd73f2794120c77a552d8758bf8419a91c648db746093da6838fbf9c7378"
+metafile = true
+
+[[files]]
+file = "mods/snow-under-trees.pw.toml"
+hash = "86cc1cd46dba76b8102d9393d7dcead07da5bef2bf5029060dbe7135ba704f32"
+metafile = true
+
+[[files]]
+file = "mods/sodium-extra.pw.toml"
+hash = "0b4fc66b962aa7c9157c60b18f8d0de4e431c566830e4fde5e946d6635ab19bb"
+metafile = true
+
+[[files]]
 file = "mods/sodium.pw.toml"
 hash = "e030f7eb263ff7fd5c72a4f2d1f7767c04c0afbd153ab20033c97d0b0940799f"
 metafile = true
 
 [[files]]
+file = "mods/spawn-animations.pw.toml"
+hash = "251bae2beb2b613d8e095803351734c8b56f73bf95f3ff9373919dc12bdc0ed5"
+metafile = true
+
+[[files]]
+file = "mods/stoneworks.pw.toml"
+hash = "66902281b3a57731297ffe93e70102fed4eefa20ae92b335ad1fdaa14a360307"
+metafile = true
+
+[[files]]
+file = "mods/structory-towers.pw.toml"
+hash = "2134632a909d138105147ab72b93d8bac0905506d858532649338a1439f0f10f"
+metafile = true
+
+[[files]]
+file = "mods/structory.pw.toml"
+hash = "1ba214f8dba1b339c5938eaef3b85583f5b6c27a17194ac8bbe81e9e89b82694"
+metafile = true
+
+[[files]]
+file = "mods/tectonic.pw.toml"
+hash = "f1bb66134aab388ab52f4c81f8d851bb4cb4674ad1e7ff5e2c796fb6c62dc312"
+metafile = true
+
+[[files]]
 file = "mods/terralith.pw.toml"
 hash = "fd1c3d35ea2e96176272ff717bd0aad69d9cb7d042210d347a3e24c0ac6e47a3"
+metafile = true
+
+[[files]]
+file = "mods/visuality.pw.toml"
+hash = "c4245b84c0a1ead3fc615838327496cacea8e23d99500e507b1f1f77f1156909"
+metafile = true
+
+[[files]]
+file = "mods/waystones.pw.toml"
+hash = "492a28fd87356b5562dc95b4d344e97da958a4249745f1cd9ce245896a0ededc"
 metafile = true
 
 [[files]]

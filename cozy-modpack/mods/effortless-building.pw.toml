@@ -1,0 +1,13 @@
+name = "effortless-building"
+filename = "effortlessbuilding-fabric-26.1.2-4.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/DYtfQEYj/versions/n1dUOz02/effortlessbuilding-fabric-26.1.2-4.1.jar"
+hash-format = "sha512"
+hash = "b6d2936c95f58a8d96b307e3bd407307a31603d9d81cb2af51a88ae773366f1f930a1f2473d4f1da048cc4f09b8435b24482dd9ca2a3d0a1c7b4ca05d6c0d51f"
+
+[update]
+[update.modrinth]
+mod-id = "DYtfQEYj"
+version = "n1dUOz02"

@@ -1,0 +1,13 @@
+name = "spawn-animations"
+filename = "spawnanimations-v1.11.4+bump-mc1.17-26.1.x-mod.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/zrzYrlm0/versions/5D5aev3E/spawnanimations-v1.11.4%2Bbump-mc1.17-26.1.x-mod.jar"
+hash-format = "sha512"
+hash = "e8602331bc4423b0ed995c8834df8eb5660825e871543784804dfc913c4b9a41fc316cd1ab3b4888f407e222fe7bee5e68d93109947227188f5391532ce336d9"
+
+[update]
+[update.modrinth]
+mod-id = "zrzYrlm0"
+version = "5D5aev3E"
