@@ -95,6 +95,11 @@ hash = "ac48fb7d7618adcda70aa9d3131a65a3cb0bb3ef39b31114f8a686a9be3e08cc"
 metafile = true
 
 [[files]]
+file = "mods/continuity.pw.toml"
+hash = "614625058bb59de2271ff96f664d396390a0634c5bc230ed058ba84f54e106a5"
+metafile = true
+
+[[files]]
 file = "mods/coolrain.pw.toml"
 hash = "8cc5517803ecc3d379bb0060b0d939a699b1c8b8778d0ee6c58d9ca16aa76255"
 metafile = true
@@ -117,6 +122,11 @@ metafile = true
 [[files]]
 file = "mods/diagonal-fences.pw.toml"
 hash = "c5b600daece55efd9b85ac8cc5c4aab477c1e6408f746e22bffe7bb43cb412c5"
+metafile = true
+
+[[files]]
+file = "mods/diagonal-walls.pw.toml"
+hash = "e40a7dfd8ff1db98a96b5450f15ce116c436eed74be72ad62fc6ab567265a2d7"
 metafile = true
 
 [[files]]
@@ -167,6 +177,11 @@ metafile = true
 [[files]]
 file = "mods/fabric-language-kotlin.pw.toml"
 hash = "b5daf5e12680d84900ffc38637b1ee6d981b419cfaf5d1519dbc014b23323d23"
+metafile = true
+
+[[files]]
+file = "mods/fallingleaves.pw.toml"
+hash = "a57a0cfce710f800eea2c889e6e1373a99c78970412c855119321bd7f118a565"
 metafile = true
 
 [[files]]
@@ -227,6 +242,11 @@ metafile = true
 [[files]]
 file = "mods/immediatelyfast.pw.toml"
 hash = "801b95d55da1e55be20f748c5ed16d8355fe6ef853d7f666ca8a9a7a728c356f"
+metafile = true
+
+[[files]]
+file = "mods/immersive-paintings.pw.toml"
+hash = "00b49f37c02f5fa4db47e8a958d0d8894c0c29a405aeedf415a6da1ace58a3d0"
 metafile = true
 
 [[files]]
@@ -320,8 +340,33 @@ hash = "be68a63b7e210dd63d9fbeb2a6fa16b2c62f77ad29337a58f2f8dc6c6011580b"
 metafile = true
 
 [[files]]
+file = "mods/macaws-holidays.pw.toml"
+hash = "75c36a8f73c5bf50ae88992431c8ecab603fee197ce5f4d8599d02e4baf1c67d"
+metafile = true
+
+[[files]]
+file = "mods/macaws-paintings.pw.toml"
+hash = "6ed7d41a451cd1f05b1a5c64fda00b07a02a7bc6c52a0147c06611560a47170d"
+metafile = true
+
+[[files]]
 file = "mods/macaws-roofs.pw.toml"
 hash = "ae498429feb3bf982da7c9960abc04c4be767b61823ce2e88b51c69729318a37"
+metafile = true
+
+[[files]]
+file = "mods/macaws-stairs.pw.toml"
+hash = "0e80ce991a88b807babd4c65de036a3cc7e9607fbd42933017b50c9773fd198d"
+metafile = true
+
+[[files]]
+file = "mods/macaws-trapdoors.pw.toml"
+hash = "c049046961b2b48994eb13f1f6546e9ab672f7d34624ce2f59ec726255efcc7e"
+metafile = true
+
+[[files]]
+file = "mods/macaws-windows.pw.toml"
+hash = "a1f336b2273c22f84dcce0bc198260d629054aa9638c58ef66e67c0cb5df14f5"
 metafile = true
 
 [[files]]
@@ -347,6 +392,11 @@ metafile = true
 [[files]]
 file = "mods/modmenu.pw.toml"
 hash = "6e8ea30236a7add47c7169f0f5d55c0d920b57f7d82e5bd76330a63f6ad34890"
+metafile = true
+
+[[files]]
+file = "mods/moogs-voyager-structures.pw.toml"
+hash = "f0b8f80433ce3b0387811dd3b495c374e85ccde1d880576584f7b66cb1e2135c"
 metafile = true
 
 [[files]]
