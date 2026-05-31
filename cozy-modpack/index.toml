@@ -100,6 +100,16 @@ hash = "8cc5517803ecc3d379bb0060b0d939a699b1c8b8778d0ee6c58d9ca16aa76255"
 metafile = true
 
 [[files]]
+file = "mods/crate-delight.pw.toml"
+hash = "39c39859659542dc1c19e3269a02f645fecdc8d1ef9a1bbad1b585d7a1fceb00"
+metafile = true
+
+[[files]]
+file = "mods/dark-paintings.pw.toml"
+hash = "563bf664d22d1f975dc32d1ed54ba3279c8ab4a1c724cff1e87491d06ef68715"
+metafile = true
+
+[[files]]
 file = "mods/delight-lib.pw.toml"
 hash = "14c65a3ced2e4be253b4fd48321db95fd4b2d9e012902a78e1bc5a31ef9b8537"
 metafile = true
@@ -310,6 +320,26 @@ hash = "ae498429feb3bf982da7c9960abc04c4be767b61823ce2e88b51c69729318a37"
 metafile = true
 
 [[files]]
+file = "mods/medieval-buildings-end-edition.pw.toml"
+hash = "002f75faf6ee0551507e3fbf03158f6513a98e967cc1caed6ce6f9efeef7fb99"
+metafile = true
+
+[[files]]
+file = "mods/medieval-buildings-nether-edition.pw.toml"
+hash = "c01f28f0ed1b03111e7f7b9a7e0bb4940a7d12c8ddcf28bb3210b1ee086070fe"
+metafile = true
+
+[[files]]
+file = "mods/medieval-buildings.pw.toml"
+hash = "ff4f230ff98b91df3322b4d1c9bc131d74422f16929b82f7f4e9d6a580dc1c62"
+metafile = true
+
+[[files]]
+file = "mods/mns-moogs-nether-structures.pw.toml"
+hash = "14581d8a9cb0a2f7a633d3a3a67f7ab72c285790fc16ebc33d8959b7191c9e08"
+metafile = true
+
+[[files]]
 file = "mods/modmenu.pw.toml"
 hash = "6e8ea30236a7add47c7169f0f5d55c0d920b57f7d82e5bd76330a63f6ad34890"
 metafile = true
@@ -422,6 +452,11 @@ metafile = true
 [[files]]
 file = "mods/stoneworks.pw.toml"
 hash = "66902281b3a57731297ffe93e70102fed4eefa20ae92b335ad1fdaa14a360307"
+metafile = true
+
+[[files]]
+file = "mods/storage-delight.pw.toml"
+hash = "5c0760335f12f7b73059a3ce6ea8cfd412dfb10be3bbb55614d8440292cc6d10"
 metafile = true
 
 [[files]]
