@@ -80,6 +80,11 @@ hash = "7dcc2783acc3400fd619008cb3c51168a3e244a5fa2dd4435c7bd887a03f92ba"
 metafile = true
 
 [[files]]
+file = "mods/cicada.pw.toml"
+hash = "8475afec3b416f6b1dab213bb16a2df828c191454cc984bd5b00eac07a5c143c"
+metafile = true
+
+[[files]]
 file = "mods/clumps.pw.toml"
 hash = "35b584bd96b04b3eb0d4aabbf5a213dfe798cfaebc02e0bc4e27392373cff128"
 metafile = true
@@ -145,6 +150,11 @@ hash = "7eb0bc476b800ad094b3c4fc5c0bbfc9c78483a5bba1e56149951c9805630709"
 metafile = true
 
 [[files]]
+file = "mods/fabric-language-kotlin.pw.toml"
+hash = "b5daf5e12680d84900ffc38637b1ee6d981b419cfaf5d1519dbc014b23323d23"
+metafile = true
+
+[[files]]
 file = "mods/farmers-delight-refabricated.pw.toml"
 hash = "30512d951ac4d42c80795cad6a6c9b13eff0f4950b0ada3748e6451d4ee9400f"
 metafile = true
@@ -177,6 +187,11 @@ metafile = true
 [[files]]
 file = "mods/frozenlib.pw.toml"
 hash = "03c976ddc5d609d11a1231d75c589573545e7d0efb278329849ac73324159906"
+metafile = true
+
+[[files]]
+file = "mods/fzzy-config.pw.toml"
+hash = "468c2cd4380582f7606fcb6b10552175ae18812dc4855d888564d3c1bc392ab7"
 metafile = true
 
 [[files]]
@@ -247,6 +262,11 @@ metafile = true
 [[files]]
 file = "mods/lambdynamiclights.pw.toml"
 hash = "5085fc6e8f1c818dc02b69ba55c36e268b39383f5f06d731843d28d26c521211"
+metafile = true
+
+[[files]]
+file = "mods/libipn.pw.toml"
+hash = "f30756910ebc4572fd752dc1a36e7ef3d9cea1bf4fcd68da8f84ee28b383d80a"
 metafile = true
 
 [[files]]
