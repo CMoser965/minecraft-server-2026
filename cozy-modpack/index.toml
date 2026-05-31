@@ -510,6 +510,11 @@ hash = "56331ceb0925ec36eb5f648cf20ca1faa3ae68545cb93c255728002004437abb"
 metafile = true
 
 [[files]]
+file = "mods/travelersbackpack.pw.toml"
+hash = "090eda924f770fa44948021c2c1a9a90b0cb5b05b7976953838107b6394454a4"
+metafile = true
+
+[[files]]
 file = "mods/trek.pw.toml"
 hash = "c3142a35f60fa3c8f286ba65daab07113e222a1ac581613f50b27ad62f5049b8"
 metafile = true
