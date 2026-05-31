@@ -35,6 +35,11 @@ hash = "eb61e853b6b3fd166f60eb4b5965a92ee3e8d12cae83f229ab635405a3702370"
 metafile = true
 
 [[files]]
+file = "mods/balm.pw.toml"
+hash = "b6dde151d050438760ad09200d08f06b3b8d8556f6a13ff209f502b5552a1ad2"
+metafile = true
+
+[[files]]
 file = "mods/bartering-station.pw.toml"
 hash = "196ec56bd84ced91ef6dddd87234120f304f8034e5aec13b1d1e80072afa1a9f"
 metafile = true
@@ -77,6 +82,16 @@ metafile = true
 [[files]]
 file = "mods/clumps.pw.toml"
 hash = "35b584bd96b04b3eb0d4aabbf5a213dfe798cfaebc02e0bc4e27392373cff128"
+metafile = true
+
+[[files]]
+file = "mods/collective.pw.toml"
+hash = "ac48fb7d7618adcda70aa9d3131a65a3cb0bb3ef39b31114f8a686a9be3e08cc"
+metafile = true
+
+[[files]]
+file = "mods/delight-lib.pw.toml"
+hash = "14c65a3ced2e4be253b4fd48321db95fd4b2d9e012902a78e1bc5a31ef9b8537"
 metafile = true
 
 [[files]]
@@ -145,6 +160,11 @@ hash = "92a166cc05f774bb63100a96b68244a5762ef2ba2718c3f5a8b3533261654c14"
 metafile = true
 
 [[files]]
+file = "mods/forge-config-api-port.pw.toml"
+hash = "60b0fa9da8c2ae7bf4dbef5c2fcd22f8ebf4773b9804d85e16a287f02ce7bdcd"
+metafile = true
+
+[[files]]
 file = "mods/friends-and-foes.pw.toml"
 hash = "273394b1972336ce003b58a55900a27375218ac2c8a3f07ece96bfd0051e1206"
 metafile = true
@@ -167,6 +187,11 @@ metafile = true
 [[files]]
 file = "mods/geophilic.pw.toml"
 hash = "7053c90942a67d58962ea836850f4d3899c815be3f2539fa2c9ca6f8afc06ef3"
+metafile = true
+
+[[files]]
+file = "mods/glitchcore.pw.toml"
+hash = "d234ac2eea967b4a366bacd76d8e5ce6f552186d1f8b21dfa7986b05b8adfe9f"
 metafile = true
 
 [[files]]
@@ -290,6 +315,11 @@ hash = "fefc52b0d47a994d5f8ef29d03e084494a8baa291f562b7f3525ce037e341178"
 metafile = true
 
 [[files]]
+file = "mods/puzzles-lib.pw.toml"
+hash = "a88e2042806bff27b37ff7a02e10110a2e583990a5370074d94deb2248849a36"
+metafile = true
+
+[[files]]
 file = "mods/realistic-bees.pw.toml"
 hash = "b8af1d52e4a74c859490ce0090a925bfcedf76aa769a863258a758b9130d00cd"
 metafile = true
@@ -300,6 +330,11 @@ hash = "8e98cd73f2794120c77a552d8758bf8419a91c648db746093da6838fbf9c7378"
 metafile = true
 
 [[files]]
+file = "mods/resourceful-lib.pw.toml"
+hash = "3d6e9a4ee4b11845b15a400ae399cd53ac6ade9d6e9abd0527961d080fd8660f"
+metafile = true
+
+[[files]]
 file = "mods/respawnable-pets.pw.toml"
 hash = "6fd7082dc63de70a742155ab8a711712589d2b06c11e232d1906aa027dfbed46"
 metafile = true
@@ -307,6 +342,11 @@ metafile = true
 [[files]]
 file = "mods/serene-seasons.pw.toml"
 hash = "3a5da3e9b5c7b4743d95714bd73c92629fcba3c66d5dd2b4f5aeb05a3d6bd151"
+metafile = true
+
+[[files]]
+file = "mods/shogi.pw.toml"
+hash = "8e9166745ad7af9521fd895d5ae311a3097e1b9848d82f6943ec4931b80e858c"
 metafile = true
 
 [[files]]
@@ -345,6 +385,11 @@ hash = "66902281b3a57731297ffe93e70102fed4eefa20ae92b335ad1fdaa14a360307"
 metafile = true
 
 [[files]]
+file = "mods/strawberrylib.pw.toml"
+hash = "7f5e6aa7a476634d9210f33655fcb1fd852fac2d193dd485061c7c066745ecc9"
+metafile = true
+
+[[files]]
 file = "mods/structory-towers.pw.toml"
 hash = "2134632a909d138105147ab72b93d8bac0905506d858532649338a1439f0f10f"
 metafile = true
@@ -365,8 +410,18 @@ hash = "f1bb66134aab388ab52f4c81f8d851bb4cb4674ad1e7ff5e2c796fb6c62dc312"
 metafile = true
 
 [[files]]
+file = "mods/terrablender.pw.toml"
+hash = "2baf8fed1c9654131117a6a82b4e1dd797cd47530f2ed7e78289b9cc85653caf"
+metafile = true
+
+[[files]]
 file = "mods/terralith.pw.toml"
 hash = "fd1c3d35ea2e96176272ff717bd0aad69d9cb7d042210d347a3e24c0ac6e47a3"
+metafile = true
+
+[[files]]
+file = "mods/thermoo.pw.toml"
+hash = "24e79beda36d3f4bf912ef8c2c617d7fbe73ee5f37f1aa463ae018cc022bb0db"
 metafile = true
 
 [[files]]
@@ -407,6 +462,11 @@ metafile = true
 [[files]]
 file = "mods/xaeros-world-map.pw.toml"
 hash = "23b50c20fb3c409f1bc52cc1c7781bc0a2d44e45e7a080fb7e4a682f48a4442f"
+metafile = true
+
+[[files]]
+file = "mods/yacl.pw.toml"
+hash = "b116761ba50d187b8345a358f5271d4ada379457408988a1db3b443776e73373"
 metafile = true
 
 [[files]]

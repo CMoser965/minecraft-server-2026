@@ -1,0 +1,13 @@
+name = "thermoo"
+filename = "thermoo-10.0.0-beta.4.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/9TbXlAut/versions/D8klPGGX/thermoo-10.0.0-beta.4.jar"
+hash-format = "sha512"
+hash = "f46ddae426d907ed1cf92bc13e9d6fd7cb28289020787225d663ce231640a5ab39cf51205ec2acb8425d2c82fb84388fc7202b17b22357c6cf42dba3b25d4d53"
+
+[update]
+[update.modrinth]
+mod-id = "9TbXlAut"
+version = "D8klPGGX"
