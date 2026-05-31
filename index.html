@@ -3,160 +3,246 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Minecraft Server - Pack Hub</title>
+    <title>Minecraft Server Hub</title>
     <style>
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+        :root {
+            --bg: #0f1117;
+            --surface: #181c27;
+            --border: #252a38;
+            --text: #e2e4ea;
+            --muted: #6b7280;
+            --accent-forge: #d97706;
+            --accent-fabric: #3b82f6;
+        }
+
         body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            background: var(--bg);
+            color: var(--text);
             line-height: 1.6;
-            color: #e6e6e6;
-            background-color: #1a1a1a;
-            max-width: 900px;
-            margin: 0 auto;
-            padding: 20px;
+            min-height: 100vh;
         }
-        h1, h2, h3 { color: #ffffff; border-bottom: 1px solid #333; padding-bottom: 10px; }
-        h1 { text-align: center; border-bottom: none; }
-        a { color: #58a6ff; text-decoration: none; }
-        a:hover { text-decoration: underline; }
-        code { background-color: #333; padding: 2px 6px; border-radius: 4px; font-family: monospace; color: #ff7b72; }
-        .warning { background-color: #3d1c1c; border-left: 5px solid #ff5555; padding: 15px; margin: 20px 0; }
-        .step { background-color: #262626; padding: 20px; border-radius: 8px; margin-bottom: 20px; border: 1px solid #333; }
-        .step-title { font-size: 1.2em; font-weight: bold; margin-bottom: 10px; color: #7ee787; }
-        button {
-            background-color: #238636; color: white; border: none; padding: 10px 20px;
-            font-size: 16px; border-radius: 6px; cursor: pointer;
-        }
-        button:hover { background-color: #2ea043; }
-        .pack-grid {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 20px;
-            margin: 30px 0;
-        }
-        .pack-card {
-            background-color: #262626;
-            border: 1px solid #444;
+
+        .container { max-width: 900px; margin: 0 auto; padding: 64px 24px; }
+
+        header { margin-bottom: 72px; }
+        header h1 { font-size: 2rem; font-weight: 700; letter-spacing: -0.03em; }
+        header p { color: var(--muted); margin-top: 8px; font-size: 1rem; }
+
+        .packs { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-bottom: 80px; }
+
+        .pack {
+            background: var(--surface);
+            border: 1px solid var(--border);
             border-radius: 12px;
-            padding: 24px;
-            text-align: center;
+            padding: 32px;
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            transition: border-color 0.15s;
         }
-        .pack-card.forge { border-color: #b36b00; }
-        .pack-card.fabric { border-color: #7bb3e0; }
-        .pack-card h2 { border: none; font-size: 1.4em; margin-top: 0; }
-        .pack-card .tag {
+        .pack:hover { border-color: #3a4057; }
+        .pack.forge { border-top: 2px solid var(--accent-forge); }
+        .pack.fabric { border-top: 2px solid var(--accent-fabric); }
+
+        .pack-tag {
+            font-size: 0.7rem;
+            font-weight: 600;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            color: var(--muted);
+        }
+        .pack.forge .pack-tag { color: var(--accent-forge); }
+        .pack.fabric .pack-tag { color: var(--accent-fabric); }
+
+        .pack h2 { font-size: 1.25rem; font-weight: 600; letter-spacing: -0.02em; }
+        .pack p { color: var(--muted); font-size: 0.9rem; flex: 1; }
+
+        .pack-link {
             display: inline-block;
-            padding: 3px 10px;
-            border-radius: 20px;
-            font-size: 0.8em;
-            font-weight: bold;
-            margin-bottom: 12px;
+            margin-top: 8px;
+            padding: 8px 16px;
+            border-radius: 6px;
+            font-size: 0.875rem;
+            font-weight: 500;
+            text-decoration: none;
+            width: fit-content;
         }
-        .tag.forge { background: #b36b00; color: white; }
-        .tag.fabric { background: #2a5a8c; color: #a8d0f0; }
-        .pack-card p { color: #aaa; font-size: 0.95em; margin: 8px 0 16px; }
-        .pack-card a.btn {
-            display: inline-block;
-            padding: 10px 22px;
-            border-radius: 8px;
-            font-weight: bold;
-            font-size: 1em;
-            color: white;
+        .pack.forge .pack-link { background: rgba(217,119,6,0.12); color: var(--accent-forge); }
+        .pack.forge .pack-link:hover { background: rgba(217,119,6,0.2); }
+        .pack.fabric .pack-link { background: rgba(59,130,246,0.12); color: var(--accent-fabric); }
+        .pack.fabric .pack-link:hover { background: rgba(59,130,246,0.2); }
+
+        hr { border: none; border-top: 1px solid var(--border); margin-bottom: 56px; }
+
+        .setup h2 { font-size: 1.5rem; font-weight: 600; letter-spacing: -0.02em; margin-bottom: 32px; }
+
+        .steps { display: flex; flex-direction: column; gap: 0; }
+
+        .step {
+            display: grid;
+            grid-template-columns: 48px 1fr;
+            gap: 0 20px;
+            padding-bottom: 36px;
         }
-        a.btn.forge { background-color: #b36b00; }
-        a.btn.forge:hover { background-color: #d47e00; text-decoration: none; }
-        a.btn.fabric { background-color: #2a5a8c; }
-        a.btn.fabric:hover { background-color: #3572b0; text-decoration: none; }
-        hr { border-color: #333; margin: 40px 0; }
-        @media (max-width: 600px) { .pack-grid { grid-template-columns: 1fr; } }
+
+        .step-line {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 0;
+        }
+        .step-num {
+            width: 32px; height: 32px;
+            border-radius: 50%;
+            border: 1px solid var(--border);
+            background: var(--surface);
+            display: flex; align-items: center; justify-content: center;
+            font-size: 0.8rem; font-weight: 600; color: var(--muted);
+            flex-shrink: 0;
+        }
+        .step-connector {
+            width: 1px; background: var(--border);
+            flex: 1; margin-top: 8px;
+        }
+        .step:last-child .step-connector { display: none; }
+
+        .step-body { padding-top: 4px; }
+        .step-body h3 { font-size: 1rem; font-weight: 600; margin-bottom: 8px; }
+        .step-body p { color: var(--muted); font-size: 0.9rem; margin-bottom: 8px; }
+        .step-body ol, .step-body ul { color: var(--muted); font-size: 0.9rem; padding-left: 18px; }
+        .step-body li { margin-bottom: 4px; }
+        .step-body strong { color: var(--text); font-weight: 500; }
+
+        code {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            padding: 1px 6px;
+            border-radius: 4px;
+            font-family: 'SF Mono', 'Fira Code', monospace;
+            font-size: 0.82em;
+            color: #93c5fd;
+        }
+
+        .note {
+            background: rgba(59,130,246,0.06);
+            border-left: 2px solid rgba(59,130,246,0.3);
+            padding: 10px 14px;
+            border-radius: 0 6px 6px 0;
+            margin-top: 10px;
+            font-size: 0.875rem;
+            color: var(--muted);
+        }
+
+        .troubleshoot { margin-top: 56px; }
+        .troubleshoot h2 { font-size: 1rem; font-weight: 600; color: var(--muted); text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 20px; }
+        .troubleshoot ul { list-style: none; display: flex; flex-direction: column; gap: 12px; }
+        .troubleshoot li { font-size: 0.9rem; color: var(--muted); padding-left: 16px; position: relative; }
+        .troubleshoot li::before { content: '—'; position: absolute; left: 0; }
+        .troubleshoot strong { color: var(--text); font-weight: 500; }
+
+        a { color: #93c5fd; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+
+        @media (max-width: 580px) { .packs { grid-template-columns: 1fr; } }
     </style>
 </head>
 <body>
+<div class="container">
 
-    <h1>Minecraft - Pack Hub</h1>
-    <p style="text-align:center; color:#aaa;">Two separate modpacks. Pick yours below.</p>
+    <header>
+        <h1>Minecraft Server Hub</h1>
+        <p>Two separate modpacks. Pick yours.</p>
+    </header>
 
-    <div class="pack-grid">
-        <div class="pack-card forge">
-            <span class="tag forge">Forge 1.20.1</span>
+    <div class="packs">
+        <div class="pack forge">
+            <span class="pack-tag">Forge · 1.20.1</span>
             <h2>Unlucky Golem's 2026</h2>
-            <p>The main tech-and-adventure server pack. Industrial mods, space travel, nuclear reactors. For the regulars.</p>
-            <a class="btn forge" href="#forge-setup">Setup Guide</a>
+            <p>The main server pack. Tech mods, industrial machinery, space travel, nuclear reactors.</p>
+            <a class="pack-link" href="#forge-setup">Setup guide</a>
         </div>
-        <div class="pack-card fabric">
-            <span class="tag fabric">Fabric 1.20.1</span>
+        <div class="pack fabric">
+            <span class="pack-tag">Fabric · 26.1.2</span>
             <h2>Cozy Days</h2>
-            <p>A cozy exploration pack — pretty landscapes, cute critters, good food, and light adventure. One-click install.</p>
-            <a class="btn fabric" href="cozy-modpack/">Setup Guide</a>
+            <p>A relaxed exploration pack — stunning terrain, new critters, good food, light adventure. One-click install.</p>
+            <a class="pack-link" href="cozy-modpack/">Setup guide</a>
         </div>
     </div>
 
     <hr>
 
-    <h1 id="forge-setup">Unlucky Golem's 2026 - Setup</h1>
+    <section class="setup" id="forge-setup">
+        <h2>Unlucky Golem's 2026 — Setup</h2>
+        <div class="steps">
 
-    <div class="step">
-        <div class="step-title">📋 Prerequisites</div>
-        <ul>
-            <li><strong>Minecraft Java Edition</strong> (Official Launcher)</li>
-            <li><strong>Java 17</strong> (or Java 21). <a href="https://www.oracle.com/java/technologies/downloads/#java21" target="_blank">Download Here</a>.</li>
-        </ul>
-    </div>
+            <div class="step">
+                <div class="step-line"><div class="step-num">1</div><div class="step-connector"></div></div>
+                <div class="step-body">
+                    <h3>Prerequisites</h3>
+                    <ul>
+                        <li><strong>Minecraft Java Edition</strong></li>
+                        <li><strong>Java 17</strong> or 21 — <a href="https://www.oracle.com/java/technologies/downloads/#java21" target="_blank">download here</a></li>
+                    </ul>
+                </div>
+            </div>
 
-    <div class="step">
-        <div class="step-title">Step 1: Install Forge</div>
-        <p>We are running on <strong>Minecraft 1.20.1</strong>.</p>
-        <ol>
-            <li>Download the <a href="https://files.minecraftforge.net/net/minecraftforge/forge/index_1.20.1.html" target="_blank">Forge Installer (1.20.1)</a>.</li>
-            <li>Run the downloaded <code>.jar</code> file.</li>
-            <li>Select <strong>"Install client"</strong> and click OK.</li>
-        </ol>
-    </div>
+            <div class="step">
+                <div class="step-line"><div class="step-num">2</div><div class="step-connector"></div></div>
+                <div class="step-body">
+                    <h3>Install Forge</h3>
+                    <p>Running on <strong>Minecraft 1.20.1</strong>.</p>
+                    <ol>
+                        <li>Download the <a href="https://files.minecraftforge.net/net/minecraftforge/forge/index_1.20.1.html" target="_blank">Forge Installer (1.20.1)</a></li>
+                        <li>Run the <code>.jar</code> file</li>
+                        <li>Select <strong>Install client</strong> and click OK</li>
+                    </ol>
+                </div>
+            </div>
 
-    <div class="step">
-        <div class="step-title">Step 2: Download & Sync</div>
-        <p>We use a custom sync script to manage mods automatically.</p>
-        <ol>
-            <li><strong>Download the Pack:</strong> Click the "Code" -> "Download ZIP" button on the GitHub repository.</li>
-            <li><strong>Extract:</strong> Unzip the folder to your Documents or Games folder.</li>
-            <li><strong>Run:</strong> Double-click <code>update-mods-client.bat</code>.</li>
-        </ol>
-        <p><em>This script will download all mods directly to your Minecraft folder.</em></p>
-    </div>
+            <div class="step">
+                <div class="step-line"><div class="step-num">3</div><div class="step-connector"></div></div>
+                <div class="step-body">
+                    <h3>Download & sync mods</h3>
+                    <ol>
+                        <li>Download this repo as a ZIP (GitHub → Code → Download ZIP)</li>
+                        <li>Extract somewhere permanent (Documents, Games, etc.)</li>
+                        <li>Double-click <code>update-mods-client.bat</code></li>
+                    </ol>
+                    <div class="note">The script downloads all mods directly to your Minecraft folder. Run it again whenever mods update.</div>
+                </div>
+            </div>
 
-    <div class="step">
-        <div class="step-title">Step 3: Configure RAM (CRITICAL)</div>
-        <div class="warning">
-            <strong>⚠️ IMPORTANT:</strong> You must allocate more RAM or the game will crash.
+            <div class="step">
+                <div class="step-line"><div class="step-num">4</div><div class="step-connector"></div></div>
+                <div class="step-body">
+                    <h3>Allocate RAM</h3>
+                    <p>Open the Minecraft Launcher → <strong>Installations</strong> → find <strong>forge-1.20.1</strong> → Edit → More Options → change <code>-Xmx2G</code> to <code>-Xmx8G</code> → Save.</p>
+                </div>
+            </div>
+
+            <div class="step">
+                <div class="step-line"><div class="step-num">5</div><div class="step-connector"></div></div>
+                <div class="step-body">
+                    <h3>Play</h3>
+                    <p>Select the forge-1.20.1 profile and hit Play. Multiplayer → Add Server → enter the address you were given.</p>
+                </div>
+            </div>
+
         </div>
-        <ol>
-            <li>Open the Minecraft Launcher -> <strong>Installations</strong> tab.</li>
-            <li>Find the new <strong>forge-1.20.1</strong> profile -> Click <strong>...</strong> -> <strong>Edit</strong>.</li>
-            <li>Click <strong>More Options</strong>.</li>
-            <li>Find <strong>JVM Arguments</strong>. Change <code>-Xmx2G</code> to <strong><code>-Xmx8G</code></strong>.</li>
-            <li>Click <strong>Save</strong>.</li>
-        </ol>
-    </div>
 
-    <div class="step">
-        <div class="step-title">Step 4: Play</div>
-        <ul>
-            <li>Select your profile and hit <strong>Play</strong>.</li>
-            <li>Go to Multiplayer -> Add Server.</li>
-            <li><strong>Address:</strong> <code>YOUR_PUBLIC_IP_HERE</code></li>
-        </ul>
-    </div>
+        <div class="troubleshoot">
+            <h2>Troubleshooting</h2>
+            <ul>
+                <li><strong>Crashes on startup</strong> — did you set RAM to <code>-Xmx8G</code>?</li>
+                <li><strong>Lag spikes</strong> — turn VSync off, set framerate to Unlimited. Lower mouse polling rate to 500Hz.</li>
+                <li><strong>Can't connect</strong> — server might be restarting. Try again in a minute.</li>
+            </ul>
+        </div>
+    </section>
 
-    <hr>
-
-    <h3>🔄 How to Update</h3>
-    <p>When new mods are added, just go to your extracted folder and run <code>update-mods-client.bat</code> again. It handles everything.</p>
-
-    <h3>🛠️ Troubleshooting</h3>
-    <ul>
-        <li><strong>Lag?</strong> Turn VSync OFF and set Max Framerate to Unlimited.</li>
-        <li><strong>Mouse Stutter?</strong> Lower your mouse polling rate to 500Hz.</li>
-        <li><strong>Crash?</strong> Verify you set the RAM to <code>-Xmx8G</code>.</li>
-    </ul>
-
+</div>
 </body>
 </html>

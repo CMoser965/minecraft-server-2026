@@ -3,170 +3,250 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cozy Days - Minecraft Modpack Setup</title>
+    <title>Cozy Days — Minecraft Modpack</title>
     <style>
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-            line-height: 1.7;
-            color: #e6e6e6;
-            background-color: #1a1a1a;
-            max-width: 780px;
-            margin: 0 auto;
-            padding: 20px 24px 60px;
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+        :root {
+            --bg: #0f1117;
+            --surface: #181c27;
+            --border: #252a38;
+            --text: #e2e4ea;
+            --muted: #6b7280;
+            --accent: #3b82f6;
         }
-        h1 { text-align: center; border-bottom: none; color: #ffffff; font-size: 2em; margin-bottom: 4px; }
-        .subtitle { text-align: center; color: #9fc7e8; margin-top: 0; margin-bottom: 32px; font-size: 1.05em; }
-        h2 { color: #ffffff; border-bottom: 1px solid #333; padding-bottom: 8px; }
-        a { color: #58a6ff; text-decoration: none; }
-        a:hover { text-decoration: underline; }
-        code { background-color: #333; padding: 2px 7px; border-radius: 4px; font-family: monospace; color: #ff7b72; }
+
+        body {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+        }
+
+        .container { max-width: 780px; margin: 0 auto; padding: 64px 24px 96px; }
+
+        .back { display: inline-flex; align-items: center; gap: 6px; color: var(--muted); font-size: 0.875rem; text-decoration: none; margin-bottom: 48px; }
+        .back:hover { color: var(--text); }
+
+        header { margin-bottom: 56px; }
+        header .tag { font-size: 0.7rem; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: var(--accent); margin-bottom: 12px; }
+        header h1 { font-size: 2.25rem; font-weight: 700; letter-spacing: -0.04em; line-height: 1.1; margin-bottom: 12px; }
+        header p { color: var(--muted); font-size: 1rem; max-width: 480px; }
+
+        .section-label {
+            font-size: 0.7rem;
+            font-weight: 600;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            color: var(--muted);
+            margin-bottom: 24px;
+        }
+
+        section { margin-bottom: 64px; }
+
+        .steps { display: flex; flex-direction: column; }
+
         .step {
-            background-color: #262626;
-            padding: 22px 24px;
-            border-radius: 10px;
-            margin-bottom: 18px;
-            border: 1px solid #333;
+            display: grid;
+            grid-template-columns: 44px 1fr;
+            padding-bottom: 32px;
+        }
+
+        .step-line {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
         }
         .step-num {
-            display: inline-block;
-            background: #2a5a8c;
-            color: #a8d0f0;
-            font-weight: bold;
+            width: 28px; height: 28px;
             border-radius: 50%;
-            width: 28px;
-            height: 28px;
-            line-height: 28px;
-            text-align: center;
-            margin-right: 10px;
-            font-size: 0.95em;
+            border: 1px solid var(--border);
+            background: var(--surface);
+            display: flex; align-items: center; justify-content: center;
+            font-size: 0.75rem; font-weight: 600; color: var(--muted);
+            flex-shrink: 0;
         }
-        .step-title { font-size: 1.15em; font-weight: bold; color: #7ee787; display: inline; }
-        .tip { background-color: #1e2d1e; border-left: 4px solid #3d8f3d; padding: 12px 16px; margin: 14px 0; border-radius: 0 6px 6px 0; }
-        .note { background-color: #1e2535; border-left: 4px solid #2a5a8c; padding: 12px 16px; margin: 14px 0; border-radius: 0 6px 6px 0; }
+        .step-connector { width: 1px; background: var(--border); flex: 1; margin-top: 8px; }
+        .step:last-child .step-connector { display: none; }
+
+        .step-body { padding-top: 2px; }
+        .step-body h3 { font-size: 0.95rem; font-weight: 600; margin-bottom: 6px; }
+        .step-body p { color: var(--muted); font-size: 0.875rem; margin-bottom: 8px; }
+        .step-body ol, .step-body ul { color: var(--muted); font-size: 0.875rem; padding-left: 16px; }
+        .step-body li { margin-bottom: 4px; }
+        .step-body strong { color: var(--text); font-weight: 500; }
+
         .download-btn {
-            display: block;
-            background: #2a5a8c;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            background: var(--accent);
             color: white;
-            text-align: center;
-            padding: 14px 0;
+            padding: 10px 20px;
             border-radius: 8px;
-            font-weight: bold;
-            font-size: 1.1em;
-            margin: 16px 0 8px;
+            font-size: 0.875rem;
+            font-weight: 600;
+            text-decoration: none;
+            margin: 12px 0;
         }
-        .download-btn:hover { background: #3572b0; text-decoration: none; }
-        .mod-table { width: 100%; border-collapse: collapse; font-size: 0.9em; margin-top: 10px; }
-        .mod-table th { text-align: left; padding: 6px 10px; color: #aaa; border-bottom: 1px solid #444; }
-        .mod-table td { padding: 5px 10px; border-bottom: 1px solid #2c2c2c; }
-        .badge { display: inline-block; padding: 2px 7px; border-radius: 10px; font-size: 0.75em; font-weight: bold; }
-        .badge.client { background: #2a3d5a; color: #7ab3e0; }
-        .badge.both { background: #2a3d2a; color: #7ae07a; }
-        .back-link { display: inline-block; margin-bottom: 24px; color: #aaa; font-size: 0.9em; }
+        .download-btn:hover { background: #2563eb; }
+
+        .note {
+            background: rgba(59,130,246,0.06);
+            border-left: 2px solid rgba(59,130,246,0.25);
+            padding: 10px 14px;
+            border-radius: 0 6px 6px 0;
+            margin-top: 10px;
+            font-size: 0.8rem;
+            color: var(--muted);
+        }
+
+        code {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            padding: 1px 6px;
+            border-radius: 4px;
+            font-family: 'SF Mono', 'Fira Code', monospace;
+            font-size: 0.8em;
+            color: #93c5fd;
+        }
+
+        table { width: 100%; border-collapse: collapse; font-size: 0.85rem; }
+        thead th { text-align: left; padding: 8px 12px; color: var(--muted); font-weight: 500; border-bottom: 1px solid var(--border); }
+        tbody td { padding: 9px 12px; border-bottom: 1px solid #1c2030; color: var(--muted); vertical-align: middle; }
+        tbody td:first-child { color: var(--text); font-weight: 500; }
+        tbody tr:last-child td { border-bottom: none; }
+
+        .badge {
+            display: inline-block;
+            padding: 2px 8px;
+            border-radius: 20px;
+            font-size: 0.7rem;
+            font-weight: 600;
+        }
+        .badge-client { background: rgba(59,130,246,0.12); color: #93c5fd; }
+        .badge-both { background: rgba(34,197,94,0.1); color: #86efac; }
+
+        .trouble-list { list-style: none; display: flex; flex-direction: column; gap: 14px; }
+        .trouble-list li { font-size: 0.875rem; color: var(--muted); padding-left: 16px; position: relative; }
+        .trouble-list li::before { content: '—'; position: absolute; left: 0; }
+        .trouble-list strong { color: var(--text); font-weight: 500; }
+
+        a { color: #93c5fd; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+
+        hr { border: none; border-top: 1px solid var(--border); margin-bottom: 56px; }
     </style>
 </head>
 <body>
+<div class="container">
 
-    <a class="back-link" href="../">← Back to Pack Hub</a>
+    <a class="back" href="../">← Back</a>
 
-    <h1>Cozy Days</h1>
-    <p class="subtitle">Fabric 26.1.2 &nbsp;·&nbsp; Cozy exploration, cute critters, pretty landscapes</p>
+    <header>
+        <div class="tag">Fabric · 26.1.2</div>
+        <h1>Cozy Days</h1>
+        <p>Exploration-focused with stunning terrain, new creatures, good food, and light adventure. One-click install via Modrinth App.</p>
+    </header>
 
-    <h2>Setup Guide</h2>
-    <p style="color:#aaa;">Follow these steps in order. Takes about 5 minutes.</p>
+    <section>
+        <div class="section-label">Installation</div>
+        <div class="steps">
 
-    <div class="step">
-        <span class="step-num">1</span>
-        <span class="step-title">Install the Modrinth App</span>
-        <p>This free app handles everything — no manual mod downloading needed.</p>
-        <a class="download-btn" href="https://modrinth.com/app" target="_blank">Download Modrinth App</a>
-        <p style="color:#aaa; font-size:0.9em;">Click the big download button on their site, then run the installer file when it downloads.</p>
-    </div>
+            <div class="step">
+                <div class="step-line"><div class="step-num">1</div><div class="step-connector"></div></div>
+                <div class="step-body">
+                    <h3>Install the Modrinth App</h3>
+                    <p>A free launcher that manages everything for you — no manual mod downloading.</p>
+                    <a class="download-btn" href="https://modrinth.com/app" target="_blank">Download Modrinth App</a>
+                    <p>Run the installer after it downloads.</p>
+                </div>
+            </div>
 
-    <div class="step">
-        <span class="step-num">2</span>
-        <span class="step-title">Sign in with your Microsoft account</span>
-        <p>When the Modrinth App opens, you'll see a <strong>Sign in</strong> button. Click it — it will open a Microsoft login page in your browser.</p>
-        <p>Sign in with the <strong>same email and password you use for Minecraft</strong> (the one the game was purchased on). After logging in, go back to the Modrinth App — it should show your username at the top.</p>
-        <div class="note">If you're not sure which account, check your email for a receipt from Microsoft/Minecraft when the game was purchased.</div>
-    </div>
+            <div class="step">
+                <div class="step-line"><div class="step-num">2</div><div class="step-connector"></div></div>
+                <div class="step-body">
+                    <h3>Sign in with Microsoft</h3>
+                    <p>When the app opens, click <strong>Sign in</strong> and log in with the Microsoft account your copy of Minecraft is tied to. After signing in, your username should appear at the top of the app.</p>
+                    <div class="note">Not sure which account? Check your email for a receipt from Microsoft when the game was purchased.</div>
+                </div>
+            </div>
 
-    <div class="step">
-        <span class="step-num">3</span>
-        <span class="step-title">Download and import the modpack</span>
-        <p><strong>First</strong>, download the pack file:</p>
-        <a class="download-btn" href="cozy-days.mrpack">Download cozy-days.mrpack</a>
-        <p><strong>Then</strong>, in the Modrinth App:</p>
-        <ol>
-            <li>Click <strong>Library</strong> in the left sidebar</li>
-            <li>Click the <strong>+</strong> button (top right)</li>
-            <li>Choose <strong>Import</strong></li>
-            <li>Select the <code>cozy-days.mrpack</code> file you just downloaded</li>
-        </ol>
-        <div class="tip">The app will download all the mods automatically. This takes 2–3 minutes — just leave it running.</div>
-    </div>
+            <div class="step">
+                <div class="step-line"><div class="step-num">3</div><div class="step-connector"></div></div>
+                <div class="step-body">
+                    <h3>Import the modpack</h3>
+                    <p>Download the pack file, then import it into the Modrinth App.</p>
+                    <a class="download-btn" href="cozy-days.mrpack">Download cozy-days.mrpack</a>
+                    <p>In the Modrinth App: <strong>Library</strong> → <strong>+</strong> → <strong>Import</strong> → select the file you just downloaded. The app will handle the rest.</p>
+                    <div class="note">First launch downloads all mods — takes 2–3 minutes.</div>
+                </div>
+            </div>
 
-    <div class="step">
-        <span class="step-num">4</span>
-        <span class="step-title">Set your RAM <span style="color:#aaa; font-weight:normal; font-size:0.85em;">(important!)</span></span>
-        <p>The game needs more memory than the default. In the Modrinth App:</p>
-        <ol>
-            <li>Find your new <strong>Cozy Days</strong> instance</li>
-            <li>Click the <strong>three dots ···</strong> next to it</li>
-            <li>Click <strong>Edit</strong></li>
-            <li>Go to the <strong>Java</strong> tab</li>
-            <li>Set <strong>Maximum memory</strong> to <code>4096</code> (or higher if your PC has 16GB+ RAM, use <code>6144</code>)</li>
-            <li>Click <strong>Save</strong></li>
-        </ol>
-    </div>
+            <div class="step">
+                <div class="step-line"><div class="step-num">4</div><div class="step-connector"></div></div>
+                <div class="step-body">
+                    <h3>Allocate memory</h3>
+                    <p>In the Modrinth App, click <strong>···</strong> next to Cozy Days → <strong>Edit</strong> → <strong>Java</strong> tab → set Maximum memory to <code>6144</code> MB → Save.</p>
+                </div>
+            </div>
 
-    <div class="step">
-        <span class="step-num">5</span>
-        <span class="step-title">Play!</span>
-        <p>Click the big green <strong>Play</strong> button on your Cozy Days instance. The first launch takes about a minute while everything loads — that's normal.</p>
-        <p>To join the server once the game opens:</p>
-        <ol>
-            <li>Click <strong>Multiplayer</strong></li>
-            <li>Click <strong>Add Server</strong></li>
-            <li>In the <strong>Server Address</strong> box, type the address you were given</li>
-            <li>Click <strong>Done</strong>, then click the server to join</li>
-        </ol>
-    </div>
+            <div class="step">
+                <div class="step-line"><div class="step-num">5</div><div class="step-connector"></div></div>
+                <div class="step-body">
+                    <h3>Play</h3>
+                    <p>Hit <strong>Play</strong>. First launch takes about a minute. To join the server: <strong>Multiplayer</strong> → <strong>Add Server</strong> → enter the address you were given.</p>
+                </div>
+            </div>
 
-    <hr style="border-color:#333; margin: 36px 0;">
+        </div>
+    </section>
 
-    <h2>What's in the pack</h2>
+    <hr>
 
-    <table class="mod-table">
-        <tr><th>Mod</th><th>What it does</th><th>Where</th></tr>
-        <tr><td>Sodium + Lithium + FerriteCore</td><td>Performance — game runs smoother and faster</td><td><span class="badge client">client</span></td></tr>
-        <tr><td>Iris Shaders + Complementary Unbound</td><td>Beautiful lighting and shadows</td><td><span class="badge client">client</span></td></tr>
-        <tr><td>Dramatic Skys + Default HD 128x</td><td>Prettier skies and textures</td><td><span class="badge client">client</span></td></tr>
-        <tr><td>Terralith</td><td>Stunning terrain and mountains</td><td><span class="badge both">both</span></td></tr>
-        <tr><td>Biomes O' Plenty</td><td>Dozens of new biomes to explore</td><td><span class="badge both">both</span></td></tr>
-        <tr><td>Wilder Wild</td><td>Revamped swamps, caves, fireflies</td><td><span class="badge both">both</span></td></tr>
-        <tr><td>Wild Animals</td><td>New animals roaming the world</td><td><span class="badge both">both</span></td></tr>
-        <tr><td>Friends &amp; Foes</td><td>Copper Golem, Moobloom, Glare &amp; more</td><td><span class="badge both">both</span></td></tr>
-        <tr><td>Farmer's Delight</td><td>New food, cooking, and farming</td><td><span class="badge both">both</span></td></tr>
-        <tr><td>Macaw's Furniture / Doors / Roofs / Bridges</td><td>Tons of new things to build cozy houses with</td><td><span class="badge both">both</span></td></tr>
-        <tr><td>Dungeons &amp; Taverns</td><td>Villages with inns, new dungeons, towers</td><td><span class="badge both">both</span></td></tr>
-        <tr><td>Explorify</td><td>New caves and structures to discover</td><td><span class="badge both">both</span></td></tr>
-        <tr><td>JEI (Just Enough Items)</td><td>Look up any crafting recipe in-game</td><td><span class="badge client">client</span></td></tr>
-        <tr><td>Jade</td><td>Shows what block or animal you're looking at</td><td><span class="badge both">both</span></td></tr>
-        <tr><td>AppleSkin</td><td>Shows how much food fills your hunger bar</td><td><span class="badge both">both</span></td></tr>
-        <tr><td>Xaero's Minimap + World Map</td><td>A map you can open anytime — marks where you've been</td><td><span class="badge client">client</span></td></tr>
-        <tr><td>Inventory Profiles Next</td><td>Sort your inventory with one click</td><td><span class="badge client">client</span></td></tr>
-        <tr><td>Mod Menu</td><td>Browse installed mods in-game</td><td><span class="badge client">client</span></td></tr>
-    </table>
+    <section>
+        <div class="section-label">What's in the pack</div>
+        <table>
+            <thead>
+                <tr><th>Mod</th><th>Does</th><th></th></tr>
+            </thead>
+            <tbody>
+                <tr><td>Sodium + Lithium + FerriteCore</td><td>Performance — smoother framerates</td><td><span class="badge badge-client">client</span></td></tr>
+                <tr><td>Iris + Complementary Unbound</td><td>Shaders — beautiful lighting</td><td><span class="badge badge-client">client</span></td></tr>
+                <tr><td>Dramatic Skys + Default HD</td><td>Prettier skies and textures</td><td><span class="badge badge-client">client</span></td></tr>
+                <tr><td>Terralith</td><td>Stunning terrain and mountains</td><td><span class="badge badge-both">both</span></td></tr>
+                <tr><td>Biomes O' Plenty</td><td>Dozens of new biomes</td><td><span class="badge badge-both">both</span></td></tr>
+                <tr><td>Wilder Wild</td><td>Better swamps, caves, fireflies</td><td><span class="badge badge-both">both</span></td></tr>
+                <tr><td>Underground Worlds</td><td>Whole new underground dimension</td><td><span class="badge badge-both">both</span></td></tr>
+                <tr><td>Incendium</td><td>Nether overhaul — new biomes and structures</td><td><span class="badge badge-both">both</span></td></tr>
+                <tr><td>Nullscape + Stellarity</td><td>End dimension overhaul</td><td><span class="badge badge-both">both</span></td></tr>
+                <tr><td>Wild Animals + Friends & Foes</td><td>New creatures throughout the world</td><td><span class="badge badge-both">both</span></td></tr>
+                <tr><td>Farmer's Delight + More Delight</td><td>New food, cooking, and farming</td><td><span class="badge badge-both">both</span></td></tr>
+                <tr><td>Macaw's Furniture / Doors / Roofs / Bridges</td><td>Build nicer houses</td><td><span class="badge badge-both">both</span></td></tr>
+                <tr><td>Dungeons & Taverns + Battle Towers + Explorify</td><td>New structures and dungeons</td><td><span class="badge badge-both">both</span></td></tr>
+                <tr><td>Waystones</td><td>Fast travel between placed waystone blocks</td><td><span class="badge badge-both">both</span></td></tr>
+                <tr><td>Graves</td><td>Items saved in a grave on death</td><td><span class="badge badge-both">both</span></td></tr>
+                <tr><td>JEI</td><td>Look up any crafting recipe</td><td><span class="badge badge-client">client</span></td></tr>
+                <tr><td>Jade</td><td>Shows what you're looking at</td><td><span class="badge badge-both">both</span></td></tr>
+                <tr><td>Xaero's Minimap + World Map</td><td>A map that tracks where you've been</td><td><span class="badge badge-client">client</span></td></tr>
+                <tr><td>Inventory Profiles Next</td><td>Sort your inventory in one click</td><td><span class="badge badge-client">client</span></td></tr>
+                <tr><td>Do a Barrel Roll</td><td>Elytra aerial tricks</td><td><span class="badge badge-client">client</span></td></tr>
+            </tbody>
+        </table>
+    </section>
 
-    <hr style="border-color:#333; margin: 36px 0;">
+    <hr>
 
-    <h2>Troubleshooting</h2>
-    <ul>
-        <li><strong>Can't sign in / login not working?</strong> Make sure you're using the email the Minecraft account was purchased on. Try signing in at <a href="https://minecraft.net" target="_blank">minecraft.net</a> first to confirm it works.</li>
-        <li><strong>Game crashes on startup?</strong> Go back to Step 4 and make sure memory is set to at least <code>4096</code>.</li>
-        <li><strong>Very laggy / low FPS?</strong> In Video Settings inside the game, turn <strong>Shaders</strong> off. The game looks more basic but runs much faster on slower PCs.</li>
-        <li><strong>Can't connect to the server?</strong> Double-check the address is typed exactly right, including any <code>:</code> and numbers after it. The server might also be offline — ask first!</li>
-    </ul>
+    <section>
+        <div class="section-label">Troubleshooting</div>
+        <ul class="trouble-list">
+            <li><strong>Can't sign in</strong> — make sure you're using the email the Minecraft account was purchased on. Try signing in at <a href="https://minecraft.net" target="_blank">minecraft.net</a> to confirm it works.</li>
+            <li><strong>Game crashes on startup</strong> — go back to step 4 and set memory to at least <code>4096</code> MB.</li>
+            <li><strong>Low FPS</strong> — open Video Settings in-game and turn Shaders off. The game will look plainer but run much faster on slower hardware.</li>
+            <li><strong>Can't connect to server</strong> — double-check the address, including any <code>:</code> and numbers after it. The server might also just be offline.</li>
+        </ul>
+    </section>
 
+</div>
 </body>
 </html>
