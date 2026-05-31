@@ -295,6 +295,11 @@ hash = "7fd2ae9d78606311d36c1c4734670acb6c533ba292011a8aa24f82b34b9c0f5a"
 metafile = true
 
 [[files]]
+file = "mods/lovely-snails.pw.toml"
+hash = "08b9a8521db3ff859e19641a16bb914c117d46050fc513d231b98bbcf331f673"
+metafile = true
+
+[[files]]
 file = "mods/ly-graves.pw.toml"
 hash = "de23857c33c6d8f163b9f5fb4d766a21997cf0652e439fe603a5aad4000903d7"
 metafile = true
