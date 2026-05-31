@@ -60,6 +60,11 @@ hash = "a8099e9308c0d4d2c1c9071cddc21364b69b06bfe4ab0ba79e9ff727f0ab3dda"
 metafile = true
 
 [[files]]
+file = "mods/better-block-entities.pw.toml"
+hash = "bfba6a1e8025825daad08104fa59dc0749db6d768d542f08509d07a0ea4ecf29"
+metafile = true
+
+[[files]]
 file = "mods/betterf3.pw.toml"
 hash = "0b40cb2ab84c3a876638f4eec4961e8f2102398128910b742fec6fc0596da5a9"
 metafile = true
@@ -67,6 +72,11 @@ metafile = true
 [[files]]
 file = "mods/biomes-o-plenty.pw.toml"
 hash = "d90b9e534bfbfe7f8558e0bedb67a12a45d6d512997c49311e927a1665ebf324"
+metafile = true
+
+[[files]]
+file = "mods/bobby.pw.toml"
+hash = "30d4b602f23b0dee46d2f522c6d082d79600ae72c1899b5c183dfaadb23ae9a5"
 metafile = true
 
 [[files]]
@@ -110,6 +120,11 @@ hash = "39c39859659542dc1c19e3269a02f645fecdc8d1ef9a1bbad1b585d7a1fceb00"
 metafile = true
 
 [[files]]
+file = "mods/cull-fewer-leaves.pw.toml"
+hash = "d5983133bc187cb7101568dd92f398f40a7be675ae8304940e7509ebfbf9fcce"
+metafile = true
+
+[[files]]
 file = "mods/dark-paintings.pw.toml"
 hash = "563bf664d22d1f975dc32d1ed54ba3279c8ab4a1c724cff1e87491d06ef68715"
 metafile = true
@@ -145,6 +160,16 @@ hash = "fdab3d5d08ddc0bead9547870d23c6956054fb0b49dc11dceaa13bd9236acd1c"
 metafile = true
 
 [[files]]
+file = "mods/dynamic-fps.pw.toml"
+hash = "8fb830af7c152db3e542a04035923ef873e3396fa38914671085d98c5d67f3d2"
+metafile = true
+
+[[files]]
+file = "mods/e4mc.pw.toml"
+hash = "058cc8ca5671b397e68172a0f84ef4ff1ef20da4dc78707f531349aae23bea9d"
+metafile = true
+
+[[files]]
 file = "mods/ecologics.pw.toml"
 hash = "a4b1efd85fd5f8e0156dd10a1f4cb4ed145cc602a78501e62317f9b09a23a8c7"
 metafile = true
@@ -160,8 +185,18 @@ hash = "708bf25891177254c116c0220f7675864a84b3ba0a6c374f81755681192ab547"
 metafile = true
 
 [[files]]
+file = "mods/entity-model-features.pw.toml"
+hash = "54ed2df91aa592ef764dd157a4cbabb162d0bbd9852cab9f7a4ee3240c47b8d1"
+metafile = true
+
+[[files]]
 file = "mods/entityculling.pw.toml"
 hash = "8c514e9b7778a2a090a0e31b8fbdc45b97f9bc6540fd54c484f42f3f584988a9"
+metafile = true
+
+[[files]]
+file = "mods/entitytexturefeatures.pw.toml"
+hash = "c408a15148cea462c59c121eff4b300d2ee84c2290109d73d8e3c3fcc640fc6a"
 metafile = true
 
 [[files]]
@@ -420,8 +455,18 @@ hash = "e45e301d1b2b03ef40743134c95e099a9edd15887d821943afa73932249d7c6b"
 metafile = true
 
 [[files]]
+file = "mods/no-chat-reports.pw.toml"
+hash = "999313b677ff421159fe281c6feba144034a3d1c553ba17cf1941f824eeff6cd"
+metafile = true
+
+[[files]]
 file = "mods/nullscape.pw.toml"
 hash = "0d21d030950f98bf44c865eddc0962838bbe642edb570d53f1e08415c8b68795"
+metafile = true
+
+[[files]]
+file = "mods/ok-zoomer.pw.toml"
+hash = "01f799dfb5fd809178dd64a8430e07568728215a93b9c3a9ce0001b93b47b6fc"
 metafile = true
 
 [[files]]
@@ -502,6 +547,11 @@ metafile = true
 [[files]]
 file = "mods/sodium.pw.toml"
 hash = "e030f7eb263ff7fd5c72a4f2d1f7767c04c0afbd153ab20033c97d0b0940799f"
+metafile = true
+
+[[files]]
+file = "mods/sound-physics-remastered.pw.toml"
+hash = "1e689ac60441db8bb381792d28a1f82aa70180f7a5c945ce270c1cf0998e4b3c"
 metafile = true
 
 [[files]]
@@ -592,6 +642,11 @@ metafile = true
 [[files]]
 file = "mods/visuality.pw.toml"
 hash = "c4245b84c0a1ead3fc615838327496cacea8e23d99500e507b1f1f77f1156909"
+metafile = true
+
+[[files]]
+file = "mods/vmp-fabric.pw.toml"
+hash = "81501d171e3566ac7be32b88f02f13dda36b62921c256017908acb1624fdea1a"
 metafile = true
 
 [[files]]
