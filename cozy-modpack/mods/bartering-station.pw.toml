@@ -1,0 +1,13 @@
+name = "bartering-station"
+filename = "BarteringStation-v26.1.0-mc26.1.x-Fabric.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/EOig9U0j/versions/u0rjIDkh/BarteringStation-v26.1.0-mc26.1.x-Fabric.jar"
+hash-format = "sha512"
+hash = "f4acb89bb1b0189f5bc0da1b284527a9418389b28ba40191aad287df69f68b7d65dcc444936b88ec98219fde1332713595a1e13d8f8ec6db254c32b8c65cb1fa"
+
+[update]
+[update.modrinth]
+mod-id = "EOig9U0j"
+version = "u0rjIDkh"

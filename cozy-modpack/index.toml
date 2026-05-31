@@ -5,6 +5,11 @@ file = "index.html"
 hash = "ec1600aaed694c611ee88048fdcdba3e39e3f350a5d1330d50331e9355bbecd8"
 
 [[files]]
+file = "mods/3dskinlayers.pw.toml"
+hash = "c7b171a85da2d7cbe95c95fdb5b2bfcf28790994a0ac0b422f6bc521c7c3fc1c"
+metafile = true
+
+[[files]]
 file = "mods/amplified-nether.pw.toml"
 hash = "ada7b7d07e9e7da09d12c369a19353a076cbfea5f10cdc72b3b0516754996495"
 metafile = true
@@ -25,6 +30,16 @@ hash = "0d9076327fc827d3067d5c57af30dc3d1f2db9e8716b79cb9eda773f2c3cea5a"
 metafile = true
 
 [[files]]
+file = "mods/async.pw.toml"
+hash = "eb61e853b6b3fd166f60eb4b5965a92ee3e8d12cae83f229ab635405a3702370"
+metafile = true
+
+[[files]]
+file = "mods/bartering-station.pw.toml"
+hash = "196ec56bd84ced91ef6dddd87234120f304f8034e5aec13b1d1e80072afa1a9f"
+metafile = true
+
+[[files]]
 file = "mods/battle-towers.pw.toml"
 hash = "924411189a7b089f649845524f392f625b789a93aabe6f4bea549c46931aabd3"
 metafile = true
@@ -37,6 +52,11 @@ metafile = true
 [[files]]
 file = "mods/better-animations-collection.pw.toml"
 hash = "a8099e9308c0d4d2c1c9071cddc21364b69b06bfe4ab0ba79e9ff727f0ab3dda"
+metafile = true
+
+[[files]]
+file = "mods/betterf3.pw.toml"
+hash = "0b40cb2ab84c3a876638f4eec4961e8f2102398128910b742fec6fc0596da5a9"
 metafile = true
 
 [[files]]
@@ -90,6 +110,11 @@ hash = "3838fc2ef942b33899d16c15e4c7f1be5880c89152dbb8b2392f77ac893d8ffe"
 metafile = true
 
 [[files]]
+file = "mods/enchantment-descriptions.pw.toml"
+hash = "708bf25891177254c116c0220f7675864a84b3ba0a6c374f81755681192ab547"
+metafile = true
+
+[[files]]
 file = "mods/entityculling.pw.toml"
 hash = "8c514e9b7778a2a090a0e31b8fbdc45b97f9bc6540fd54c484f42f3f584988a9"
 metafile = true
@@ -115,8 +140,18 @@ hash = "07967897cff7512b05ad9383f9f7d8d7d78fea04d071ecebba49b9956fc99314"
 metafile = true
 
 [[files]]
+file = "mods/fish-of-thieves.pw.toml"
+hash = "92a166cc05f774bb63100a96b68244a5762ef2ba2718c3f5a8b3533261654c14"
+metafile = true
+
+[[files]]
 file = "mods/friends-and-foes.pw.toml"
 hash = "273394b1972336ce003b58a55900a27375218ac2c8a3f07ece96bfd0051e1206"
+metafile = true
+
+[[files]]
+file = "mods/frostiful.pw.toml"
+hash = "bc5ff3a434e4449a705e64c8428bb15dc13faa7f1f65b0f10bef1e52569390c9"
 metafile = true
 
 [[files]]
@@ -160,8 +195,18 @@ hash = "17a3b787f4b05be254d32834d35ddd4427ec1bf102ceb58f3306b7cb742436c3"
 metafile = true
 
 [[files]]
+file = "mods/jagms-kiwis.pw.toml"
+hash = "416dac7e7b377315e59e1fc9ab9271df41e690cfbf34fcd971944d5375fa7fd3"
+metafile = true
+
+[[files]]
 file = "mods/jei.pw.toml"
 hash = "2e7c128cde90c35b85c63935928915f2639d114633171b5d10317cc8e18cb125"
+metafile = true
+
+[[files]]
+file = "mods/katters-structures.pw.toml"
+hash = "85ec8c168bdde97806c6fc56194c3ab73e11b8c6787a0f053a2fdbd4fea14457"
 metafile = true
 
 [[files]]
@@ -172,6 +217,11 @@ metafile = true
 [[files]]
 file = "mods/ksyxis.pw.toml"
 hash = "5ee4e0ffe2ab7dd04c2bdd2cb471dccf8bbe04b50d6a86028fca9e3ad2f0f01f"
+metafile = true
+
+[[files]]
+file = "mods/lambdynamiclights.pw.toml"
+hash = "5085fc6e8f1c818dc02b69ba55c36e268b39383f5f06d731843d28d26c521211"
 metafile = true
 
 [[files]]
@@ -210,6 +260,11 @@ hash = "6e8ea30236a7add47c7169f0f5d55c0d920b57f7d82e5bd76330a63f6ad34890"
 metafile = true
 
 [[files]]
+file = "mods/more-delight.pw.toml"
+hash = "c151c099cac680d47aad7cd25b148d60f8a7d60da45fceab4e8e814abbe9f977"
+metafile = true
+
+[[files]]
 file = "mods/natures-compass.pw.toml"
 hash = "e45e301d1b2b03ef40743134c95e099a9edd15887d821943afa73932249d7c6b"
 metafile = true
@@ -235,13 +290,33 @@ hash = "fefc52b0d47a994d5f8ef29d03e084494a8baa291f562b7f3525ce037e341178"
 metafile = true
 
 [[files]]
+file = "mods/realistic-bees.pw.toml"
+hash = "b8af1d52e4a74c859490ce0090a925bfcedf76aa769a863258a758b9130d00cd"
+metafile = true
+
+[[files]]
 file = "mods/reeses-sodium-options.pw.toml"
 hash = "8e98cd73f2794120c77a552d8758bf8419a91c648db746093da6838fbf9c7378"
 metafile = true
 
 [[files]]
+file = "mods/respawnable-pets.pw.toml"
+hash = "6fd7082dc63de70a742155ab8a711712589d2b06c11e232d1906aa027dfbed46"
+metafile = true
+
+[[files]]
+file = "mods/serene-seasons.pw.toml"
+hash = "3a5da3e9b5c7b4743d95714bd73c92629fcba3c66d5dd2b4f5aeb05a3d6bd151"
+metafile = true
+
+[[files]]
 file = "mods/snow-under-trees.pw.toml"
 hash = "86cc1cd46dba76b8102d9393d7dcead07da5bef2bf5029060dbe7135ba704f32"
+metafile = true
+
+[[files]]
+file = "mods/snuffles-fabric.pw.toml"
+hash = "a4e8419dc320aa003f995f9b25759f6fe8061c6da108853728f9a6f83e292279"
 metafile = true
 
 [[files]]
@@ -277,6 +352,11 @@ metafile = true
 [[files]]
 file = "mods/structory.pw.toml"
 hash = "1ba214f8dba1b339c5938eaef3b85583f5b6c27a17194ac8bbe81e9e89b82694"
+metafile = true
+
+[[files]]
+file = "mods/subtle-effects.pw.toml"
+hash = "1d5e28d9a45b00ff34770f491945c519f0944b10191ba7d238f3d382bd9b0a36"
 metafile = true
 
 [[files]]

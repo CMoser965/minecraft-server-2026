@@ -1,0 +1,13 @@
+name = "jagms-kiwis"
+filename = "jagmkiwis-fabric-26.1-1.2.4.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/XKrJMfxV/versions/Xop1WOxE/jagmkiwis-fabric-26.1-1.2.4.jar"
+hash-format = "sha512"
+hash = "7c7960f234c5c06df397f6595de6ecce8943fb0b0431e6faece14f15cea39237c3bb78c1dca0b9d78862b7764bb120f80ff30d639a679f103452c05559b6445d"
+
+[update]
+[update.modrinth]
+mod-id = "XKrJMfxV"
+version = "Xop1WOxE"
