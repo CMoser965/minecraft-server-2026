@@ -330,6 +330,11 @@ hash = "b7a00855934492233c0b1772865e1d4dceba8ce35ccf83653014fe16dd964c44"
 metafile = true
 
 [[files]]
+file = "mods/prickle.pw.toml"
+hash = "5a431d2ee499a7947ab6cb0c47799f179467e0afc6345a89e9bc354f166821cf"
+metafile = true
+
+[[files]]
 file = "mods/promenade.pw.toml"
 hash = "fefc52b0d47a994d5f8ef29d03e084494a8baa291f562b7f3525ce037e341178"
 metafile = true
