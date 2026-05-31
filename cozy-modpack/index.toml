@@ -170,6 +170,11 @@ hash = "a9efdf51ae0ace10ff421afb864527c76247ba83e8a1b94f33e92d9d9a7d0644"
 metafile = true
 
 [[files]]
+file = "mods/distant-horizons-iris-shaders.pw.toml"
+hash = "e8517ae45b538efc7f302069f022db3c08549940c56faf86817106953e886bbe"
+metafile = true
+
+[[files]]
 file = "mods/distanthorizons.pw.toml"
 hash = "c4acda4dd17b45ef41089c261649437ab53882c29c42b0ab63cecfe49aff3232"
 metafile = true

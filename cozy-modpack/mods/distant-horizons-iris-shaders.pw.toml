@@ -1,0 +1,13 @@
+name = "distant-horizons-iris-shaders"
+filename = "Distant Horizons & Iris Shaders Distant Horizons & Iris Shaders 0.4.1 26.1.2 Fabric.mrpack"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/yiYYuulE/versions/VaWj1Jae/Distant%20Horizons%20%26%20Iris%20Shaders%20Distant%20Horizons%20%26%20Iris%20Shaders%200.4.1%2026.1.2%20Fabric.mrpack"
+hash-format = "sha512"
+hash = "853b7abfbd64a7d45538b65de48133a56ef7755769c0dda8b0e36789308e092dc7f3744c882ed8736ff66162193fda3b7abd02c4db5fff51bda43a6307cf1e99"
+
+[update]
+[update.modrinth]
+mod-id = "yiYYuulE"
+version = "VaWj1Jae"
