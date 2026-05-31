@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/DistantHorizons.toml"
+hash = "c3ccfc8b9f11903c5331654c986b2257af6ff94dc3e453ccfb297324ca309f9f"
+
+[[files]]
 file = "index.html"
 hash = "e4c9c323710da988d64b8ca6c8419fe8adebf8f58f2bbe34600668d6120b5ead"
 
