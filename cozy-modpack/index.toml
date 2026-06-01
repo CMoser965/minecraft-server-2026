@@ -1,10 +1,6 @@
 hash-format = "sha256"
 
 [[files]]
-file = "config/DistantHorizons.toml"
-hash = "c3ccfc8b9f11903c5331654c986b2257af6ff94dc3e453ccfb297324ca309f9f"
-
-[[files]]
 file = "index.html"
 hash = "e4c9c323710da988d64b8ca6c8419fe8adebf8f58f2bbe34600668d6120b5ead"
 
@@ -171,16 +167,6 @@ metafile = true
 [[files]]
 file = "mods/diagonal-windows.pw.toml"
 hash = "a9efdf51ae0ace10ff421afb864527c76247ba83e8a1b94f33e92d9d9a7d0644"
-metafile = true
-
-[[files]]
-file = "mods/distant-horizons-iris-shaders.pw.toml"
-hash = "e8517ae45b538efc7f302069f022db3c08549940c56faf86817106953e886bbe"
-metafile = true
-
-[[files]]
-file = "mods/distanthorizons.pw.toml"
-hash = "c4acda4dd17b45ef41089c261649437ab53882c29c42b0ab63cecfe49aff3232"
 metafile = true
 
 [[files]]
