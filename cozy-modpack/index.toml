@@ -190,11 +190,6 @@ hash = "058cc8ca5671b397e68172a0f84ef4ff1ef20da4dc78707f531349aae23bea9d"
 metafile = true
 
 [[files]]
-file = "mods/ecologics.pw.toml"
-hash = "a4b1efd85fd5f8e0156dd10a1f4cb4ed145cc602a78501e62317f9b09a23a8c7"
-metafile = true
-
-[[files]]
 file = "mods/effortless-building.pw.toml"
 hash = "3838fc2ef942b33899d16c15e4c7f1be5880c89152dbb8b2392f77ac893d8ffe"
 metafile = true
@@ -247,11 +242,6 @@ metafile = true
 [[files]]
 file = "mods/ferrite-core.pw.toml"
 hash = "07967897cff7512b05ad9383f9f7d8d7d78fea04d071ecebba49b9956fc99314"
-metafile = true
-
-[[files]]
-file = "mods/fish-of-thieves.pw.toml"
-hash = "92a166cc05f774bb63100a96b68244a5762ef2ba2718c3f5a8b3533261654c14"
 metafile = true
 
 [[files]]
@@ -517,11 +507,6 @@ metafile = true
 [[files]]
 file = "mods/puzzles-lib.pw.toml"
 hash = "a88e2042806bff27b37ff7a02e10110a2e583990a5370074d94deb2248849a36"
-metafile = true
-
-[[files]]
-file = "mods/realistic-bees.pw.toml"
-hash = "b8af1d52e4a74c859490ce0090a925bfcedf76aa769a863258a758b9130d00cd"
 metafile = true
 
 [[files]]
