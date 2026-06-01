@@ -105,11 +105,6 @@ hash = "8475afec3b416f6b1dab213bb16a2df828c191454cc984bd5b00eac07a5c143c"
 metafile = true
 
 [[files]]
-file = "mods/cloth-config.pw.toml"
-hash = "21265d7901193e7b6893af60b6e393b3d82a6b7f0b75e7ea8e49a701cada8f79"
-metafile = true
-
-[[files]]
 file = "mods/clumps.pw.toml"
 hash = "35b584bd96b04b3eb0d4aabbf5a213dfe798cfaebc02e0bc4e27392373cff128"
 metafile = true
@@ -530,11 +525,6 @@ hash = "6fd7082dc63de70a742155ab8a711712589d2b06c11e232d1906aa027dfbed46"
 metafile = true
 
 [[files]]
-file = "mods/rustic-delight.pw.toml"
-hash = "c49222fff7567a43f4e7f89b04e0b82bcee1f3f57f98723f9991fd9cde6c6c58"
-metafile = true
-
-[[files]]
 file = "mods/serene-seasons.pw.toml"
 hash = "3a5da3e9b5c7b4743d95714bd73c92629fcba3c66d5dd2b4f5aeb05a3d6bd151"
 metafile = true
@@ -547,11 +537,6 @@ metafile = true
 [[files]]
 file = "mods/snow-under-trees.pw.toml"
 hash = "86cc1cd46dba76b8102d9393d7dcead07da5bef2bf5029060dbe7135ba704f32"
-metafile = true
-
-[[files]]
-file = "mods/snuffles-fabric.pw.toml"
-hash = "a4e8419dc320aa003f995f9b25759f6fe8061c6da108853728f9a6f83e292279"
 metafile = true
 
 [[files]]
