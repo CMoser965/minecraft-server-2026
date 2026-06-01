@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "index.html"
-hash = "e4c9c323710da988d64b8ca6c8419fe8adebf8f58f2bbe34600668d6120b5ead"
+hash = "213c107baaa78a744710ab53a78bbf91beeebf1eb482df94110a5c3d75f2e01f"
 
 [[files]]
 file = "mods/3dskinlayers.pw.toml"
@@ -122,11 +122,6 @@ metafile = true
 [[files]]
 file = "mods/coolrain.pw.toml"
 hash = "8cc5517803ecc3d379bb0060b0d939a699b1c8b8778d0ee6c58d9ca16aa76255"
-metafile = true
-
-[[files]]
-file = "mods/crate-delight.pw.toml"
-hash = "39c39859659542dc1c19e3269a02f645fecdc8d1ef9a1bbad1b585d7a1fceb00"
 metafile = true
 
 [[files]]
