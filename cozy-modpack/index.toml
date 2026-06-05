@@ -1,8 +1,12 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/waystones-common.toml"
+hash = "c106a57cffd5acad63b7bf8a94bd1c7e05048058103ec1040673a60fffdde55b"
+
+[[files]]
 file = "index.html"
-hash = "213c107baaa78a744710ab53a78bbf91beeebf1eb482df94110a5c3d75f2e01f"
+hash = "ef8db3c9d4bf035f84b8be83225c861eafd968a1f6bee4fdd8e1210926d47da5"
 
 [[files]]
 file = "mods/3dskinlayers.pw.toml"
@@ -92,6 +96,11 @@ metafile = true
 [[files]]
 file = "mods/c2me-fabric.pw.toml"
 hash = "8fc7bdfbe2e6a526c345b533a915bc39e38a8eb197078d780d3d868f4b6168b6"
+metafile = true
+
+[[files]]
+file = "mods/chest-tracker-port.pw.toml"
+hash = "925c174159ad40c7a90ad5ef216838dc0e94fac3f070250e85e2ffe29168d9e8"
 metafile = true
 
 [[files]]
@@ -235,6 +244,11 @@ hash = "30512d951ac4d42c80795cad6a6c9b13eff0f4950b0ada3748e6451d4ee9400f"
 metafile = true
 
 [[files]]
+file = "mods/farming-for-blockheads.pw.toml"
+hash = "9087b5b4f86f365b4ba6d072e7d2f5f9795530fc0d659ae2a1f94865a9957d0e"
+metafile = true
+
+[[files]]
 file = "mods/ferrite-core.pw.toml"
 hash = "07967897cff7512b05ad9383f9f7d8d7d78fea04d071ecebba49b9956fc99314"
 metafile = true
@@ -247,11 +261,6 @@ metafile = true
 [[files]]
 file = "mods/friends-and-foes.pw.toml"
 hash = "273394b1972336ce003b58a55900a27375218ac2c8a3f07ece96bfd0051e1206"
-metafile = true
-
-[[files]]
-file = "mods/frostiful.pw.toml"
-hash = "bc5ff3a434e4449a705e64c8428bb15dc13faa7f1f65b0f10bef1e52569390c9"
 metafile = true
 
 [[files]]
@@ -317,6 +326,11 @@ metafile = true
 [[files]]
 file = "mods/jagms-kiwis.pw.toml"
 hash = "416dac7e7b377315e59e1fc9ab9271df41e690cfbf34fcd971944d5375fa7fd3"
+metafile = true
+
+[[files]]
+file = "mods/jamlib.pw.toml"
+hash = "27edb3c7394f9fdf5a0d769c90d2b3eaa8574512a24448b9365a1e21cebc5ecd"
 metafile = true
 
 [[files]]
@@ -465,6 +479,11 @@ hash = "e45e301d1b2b03ef40743134c95e099a9edd15887d821943afa73932249d7c6b"
 metafile = true
 
 [[files]]
+file = "mods/nct.pw.toml"
+hash = "53f87f488b39aa5fec5e4b7e89e67bd6a69a4bec1ce119f12e4ca0f405a960bb"
+metafile = true
+
+[[files]]
 file = "mods/no-chat-reports.pw.toml"
 hash = "999313b677ff421159fe281c6feba144034a3d1c553ba17cf1941f824eeff6cd"
 metafile = true
@@ -510,6 +529,16 @@ hash = "8e98cd73f2794120c77a552d8758bf8419a91c648db746093da6838fbf9c7378"
 metafile = true
 
 [[files]]
+file = "mods/refined-storage.pw.toml"
+hash = "30d9eeaa6d7b96fd503a1410fe6fa127d8809803504e822520abe16bf5be3784"
+metafile = true
+
+[[files]]
+file = "mods/replanting-crops.pw.toml"
+hash = "88946d734a44221f999f06e3f731c71e5dcd3b957fa95ed68f9e476253715361"
+metafile = true
+
+[[files]]
 file = "mods/resourceful-lib.pw.toml"
 hash = "3d6e9a4ee4b11845b15a400ae399cd53ac6ade9d6e9abd0527961d080fd8660f"
 metafile = true
@@ -517,6 +546,11 @@ metafile = true
 [[files]]
 file = "mods/respawnable-pets.pw.toml"
 hash = "6fd7082dc63de70a742155ab8a711712589d2b06c11e232d1906aa027dfbed46"
+metafile = true
+
+[[files]]
+file = "mods/rightclickharvest.pw.toml"
+hash = "e150f878c499420771611573124cb438b1b9d831bc86ef00c9e5e7afccbad5e9"
 metafile = true
 
 [[files]]
@@ -616,12 +650,17 @@ metafile = true
 
 [[files]]
 file = "mods/travelersbackpack.pw.toml"
-hash = "090eda924f770fa44948021c2c1a9a90b0cb5b05b7976953838107b6394454a4"
+hash = "bd6ee49f8560398efdc65efffa3ddc5f872ff781a255e5654c294087de48e0e0"
 metafile = true
 
 [[files]]
 file = "mods/trek.pw.toml"
 hash = "c3142a35f60fa3c8f286ba65daab07113e222a1ac581613f50b27ad62f5049b8"
+metafile = true
+
+[[files]]
+file = "mods/trinkets-updated.pw.toml"
+hash = "a7a718ab0bd594faf7afaa94f0d5a0d2f383b6e7be3d8560deed72b2daa6fe8a"
 metafile = true
 
 [[files]]

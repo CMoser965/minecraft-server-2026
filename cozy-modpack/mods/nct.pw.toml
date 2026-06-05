@@ -1,0 +1,13 @@
+name = "No Crop Trample"
+filename = "nocroptrample-1.1.0+26.1.1.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/TEL2rIgj/versions/ikPLJRgA/nocroptrample-1.1.0%2B26.1.1.jar"
+hash-format = "sha512"
+hash = "5154bdf573af484c0bb9974c42a7859334a28217abe2659a6930c500e3dfb2b5b181e53c12bd4923cd6a88f300aabdf33ba4cd2c56e0321afe0a0695f19457de"
+
+[update]
+[update.modrinth]
+mod-id = "TEL2rIgj"
+version = "ikPLJRgA"
