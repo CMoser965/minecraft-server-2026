@@ -6,7 +6,7 @@ hash = "c106a57cffd5acad63b7bf8a94bd1c7e05048058103ec1040673a60fffdde55b"
 
 [[files]]
 file = "index.html"
-hash = "ef8db3c9d4bf035f84b8be83225c861eafd968a1f6bee4fdd8e1210926d47da5"
+hash = "9d4614fc2708861b583d885833b662ed9d0242c580ec9ac053bef2d090ecf48a"
 
 [[files]]
 file = "mods/3dskinlayers.pw.toml"
@@ -114,6 +114,11 @@ hash = "8475afec3b416f6b1dab213bb16a2df828c191454cc984bd5b00eac07a5c143c"
 metafile = true
 
 [[files]]
+file = "mods/cloth-config.pw.toml"
+hash = "1b8f4603e81c48badce4a9321dea87bdeb9d3b5a2f0be566139d087afad73a47"
+metafile = true
+
+[[files]]
 file = "mods/clumps.pw.toml"
 hash = "35b584bd96b04b3eb0d4aabbf5a213dfe798cfaebc02e0bc4e27392373cff128"
 metafile = true
@@ -131,6 +136,11 @@ metafile = true
 [[files]]
 file = "mods/coolrain.pw.toml"
 hash = "8cc5517803ecc3d379bb0060b0d939a699b1c8b8778d0ee6c58d9ca16aa76255"
+metafile = true
+
+[[files]]
+file = "mods/crate-delight.pw.toml"
+hash = "9d2045cb9e5f0b8daa776249ebf228d5c4adc366788038df5b124c1add35e3e8"
 metafile = true
 
 [[files]]
